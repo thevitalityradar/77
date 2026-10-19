@@ -1,0 +1,8 @@
+{
+  "name": "77 Review – Evidence-Aware Health, Fitness & Supplement Reviews",
+  "description": "Independent health, fitness, and supplement editorial publication delivering evidence-backed reviews, transparent comparisons, and scientific buying guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

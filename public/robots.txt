@@ -1,0 +1,44 @@
+# robots.txt for https://77-review.ai.studio/
+# Optimized for Google Search Console, Bing Webmaster Tools, and IndexNow
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*?*preview=true
+
+# Bingbot & MSNbot Directives (Bing Webmaster Tools)
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*?*preview=true
+Crawl-delay: 1
+
+User-agent: msnbot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: msnbot-media
+Allow: /
+Allow: /images/
+Allow: /products/
+
+User-agent: BingPreview
+Allow: /
+
+# Googlebot Directives
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /products/
+Allow: /logo*.png
+Allow: /logo.svg
+
+# Sitemaps and Feeds
+Sitemap: https://77-review.ai.studio/sitemap.xml
