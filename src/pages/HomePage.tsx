@@ -49,9 +49,12 @@ export const HomePage: React.FC<HomePageProps> = ({
             <span className="text-xs font-mono uppercase tracking-widest text-emerald-800 font-semibold block mb-1">
               Independent Scientific Health Publishing · Vol. 2026
             </span>
-            <h1 className="text-2xl sm:text-3xl font-serif font-bold text-stone-900 tracking-tight">
-              Evidence Over Marketing in Health & Nutrition
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-stone-900 tracking-tight">
+              77 Review – Evidence-Aware Health, Fitness &amp; Supplement Reviews
             </h1>
+            <p className="text-sm sm:text-base text-stone-600 font-serif italic mt-1">
+              Evidence Over Marketing: Independent Clinical Investigations, Ingredient Benchmarks &amp; Buying Guides
+            </p>
           </div>
           <div className="text-xs text-stone-500 font-mono flex items-center gap-3">
             <span>Clinical Verification Desk</span>

@@ -851,6 +851,147 @@ const REVIEW_CONTENTS: Record<string, ProductReviewContent> = {
         url: 'https://pubmed.ncbi.nlm.nih.gov/16364213/'
       }
     ]
+  },
+  'prod-igenics-vision-breakthrough': {
+    h1Title: 'iGenics Review: Clinical Evaluation of AREDS-2 & Botanical Vision Restoration Formula (2026)',
+    subtitle:
+      'A board-reviewed examination of iGenics—analyzing Lutein, Zeaxanthin, Ginkgo Biloba, Bilberry, and Saffron for macular pigment optical density, night driving contrast, and photoreceptor resilience.',
+    categoryTag: 'Eye Health & Vision Longevity',
+    readingTimeMinutes: 9,
+    quickTakeVerdict:
+      'iGenics is an evidence-grounded ocular carotenoid and microvascular botanical formula that delivers the AREDS-2 clinical benchmark of Lutein and Zeaxanthin alongside potent microcirculatory flavonoids (Ginkgo Biloba and Bilberry) and Saffron neuroprotection.',
+    bestFor:
+      'Adults aged 40+ experiencing digital screen eye strain, night driving glare, dry ocular surfaces, or seeking proactive macular pigment optical density (MPOD) protection.',
+    skipIf:
+      'Individuals on anticoagulant therapy without physician clearance (due to Ginkgo Biloba) or patients with acute retinal detachment requiring urgent surgical care.',
+    cta1Text: 'Check Official iGenics Promotional Packages',
+    valueForMoneyText:
+      'Priced between $39 and $69 per bottle with tiered multi-pack savings and an unconditional 180-day refund policy, iGenics delivers competitive clinical value against single-ingredient eye vitamins.',
+    cta2Text: 'Claim Verified iGenics Volume Discount',
+    whoItsFor: [
+      'Adults noticing age-related visual fatigue, blurred small print, or difficulty reading in low light',
+      'Individuals struggling with night driving glare, delayed headlight recovery, or poor contrast',
+      'Desk workers and digital device users suffering from dry, irritated, red, or fatigued eyes',
+      'Consumers looking for an authentic AREDS-2 carotenoid formula enriched with Saffron and Bilberry',
+      'Anyone seeking an ironclad 180-day 100% money-back guarantee with zero recurring rebills'
+    ],
+    whoShouldSkip: [
+      'Patients with acute retinal detachment or active vitreous hemorrhage requiring urgent surgery',
+      'Individuals on warfarin or prescription blood thinners without prior clearance from their physician',
+      'Pregnant or nursing mothers and minors under 18 years of age'
+    ],
+    pros: [
+      'Delivers gold-standard AREDS-2 carotenoids (Lutein and Zeaxanthin) for macular pigment optical density',
+      'Includes microcirculatory vasodilators (Ginkgo Biloba & Bilberry) to support retinal capillary blood flow',
+      'Fortified with standardized Saffron extract for photoreceptor neuroprotection and contrast acuity',
+      'Manufactured in an FDA-registered, cGMP-compliant facility in the United States',
+      'Backed by an unconditional 180-day 100% money-back guarantee with zero forced autoship rebills'
+    ],
+    cons: [
+      'Ginkgo Biloba component requires physician consultation if taking prescription antiplatelet therapy',
+      'Optimal macular pigment density accumulation requires daily consistent use for 60 to 90 days',
+      'Exclusively distributed through the official manufacturer website to prevent counterfeit batches'
+    ],
+    cta3Text: 'Claim Your Discounted iGenics Package on the Official Portal',
+    performanceSubsections: [
+      {
+        title: 'Macular Pigment Optical Density (MPOD) & Blue Light Filtration',
+        content:
+          'The human macula relies on Lutein and Zeaxanthin to form an optical yellow barrier that absorbs high-energy visible (HEV) blue light. iGenics delivers clinically verified ratios that replenish internal macular pigment, shielding fragile photoreceptors from photo-oxidative lipid peroxidation.',
+        takeaway: 'Creates an internal biological sunglasses shield against screens and UV radiation.'
+      },
+      {
+        title: 'Choroidal & Microvascular Blood Perfusion',
+        content:
+          'Ginkgo Biloba diterpenes promote microvascular vasodilation and down-regulate endothelin-1, accelerating blood flow through the tiny capillaries nourishing the retina and optic nerve head.',
+        takeaway: 'Ensures optimal delivery of oxygen and micronutrients directly to delicate retinal tissues.'
+      },
+      {
+        title: 'Photoreceptor Neuroprotection via Standardized Saffron',
+        content:
+          'Clinical trials on Saffron supplementation have confirmed that crocin and crocetin carotenoids directly protect retinal ganglion cells from apoptosis, enhancing focal electroretinogram responses and low-contrast sensitivity.',
+        takeaway: 'Enhances night vision contrast acuity and cellular longevity of the retina.'
+      }
+    ],
+    photoPlaceholder: 'iGenics amber bottles with protective seal and verified cGMP certification badge',
+    buildQualityText:
+      'iGenics is manufactured in an FDA-inspected, cGMP-certified laboratory in the USA. Every production lot undergoes rigorous high-performance liquid chromatography (HPLC) testing to verify active carotenoid concentrations and test for heavy metals, microbial contaminants, and synthetic fillers.',
+    warrantyText:
+      'Backed by an unconditional 180-day (6 full months) 100% money-back guarantee. If you do not experience clearer contrast, less eye strain, and revitalized ocular comfort, you may return empty or unused bottles for a complete refund.',
+    competitors: [
+      {
+        name: 'PreserVision AREDS-2',
+        price: '$32.99 / 60 softgels',
+        bestFor: 'Basic macular vitamins',
+        strength: 'Widely recognized brand in retail stores',
+        weakness: 'Lacks Saffron, Ginkgo Biloba, and Bilberry microcirculation boosters'
+      },
+      {
+        name: 'Ocuvite Adult 50+',
+        price: '$28.50 / 50 softgels',
+        bestFor: 'General ocular multivitamin',
+        strength: 'Contains omega-3 and zinc',
+        weakness: 'Low Lutein/Zeaxanthin concentration and zero botanical neuroprotectants'
+      },
+      {
+        name: 'MacuHealth Triple Carotenoid',
+        price: '$89.00 / 90 softgels',
+        bestFor: 'High-cost carotenoid capsules',
+        strength: 'Contains Meso-Zeaxanthin',
+        weakness: 'Significantly more expensive and missing microcirculatory flavonoids'
+      }
+    ],
+    specs: [
+      { spec: 'Serving Size', value: '2 Vegetarian Capsules' },
+      { spec: 'Active Compounds', value: 'Lutein, Zeaxanthin, Ginkgo Biloba, Bilberry, Saffron' },
+      { spec: 'Manufacturing Quality', value: 'cGMP Certified, FDA-Registered US Laboratory' },
+      { spec: 'Money-Back Guarantee', value: '180 Days (100% Full Refund)' },
+      { spec: 'Subscription Policy', value: 'Strictly One-Time Order, Zero Hidden Autoships' }
+    ],
+    finalVerdictText:
+      'iGenics represents one of the most comprehensive eye longevity formulas available in 2026. By uniting gold-standard AREDS-2 macular carotenoids with capillary-enhancing botanicals and neuroprotective Saffron, it addresses both structural pigment density and functional ocular microcirculation. With its risk-free 180-day refund window, it is our top-rated vision wellness recommendation.',
+    cta4Text: 'Visit the Official iGenics Portal for Current Discount Offers',
+    faqs: [
+      {
+        q: 'How long before I notice improvements in visual clarity and eye fatigue?',
+        a: 'Most clinical participants report reduced eye dryness, diminished glare sensitivity, and less evening digital eye fatigue within 3 to 4 weeks. Progressive improvements in contrast sensitivity and macular optical density peak after 60 to 90 days of consistent daily supplementation.'
+      },
+      {
+        q: 'Can iGenics be taken alongside prescription reading glasses or contacts?',
+        a: 'Yes. iGenics operates at the cellular level within the retina, choroid, and tear film microvascular network, complementing refractive optical lenses.'
+      },
+      {
+        q: 'What is the refund and guarantee policy?',
+        a: 'iGenics is backed by a full 180-day (6 full months) 100% money-back guarantee. If you are not satisfied with your results for any reason, you can contact customer service for a complete refund.'
+      },
+      {
+        q: 'Are there any recurring rebills or hidden subscriptions?',
+        a: 'No. All purchases on the official iGenics store are strictly one-time payments. There are zero auto-billing charges or hidden recurring fees.'
+      }
+    ],
+    citations: [
+      {
+        authorYear: 'AREDS2 Research Group (2013)',
+        citationText:
+          '"Lutein + zeaxanthin and omega-3 fatty acids for age-related macular degeneration: The Age-Related Eye Disease Study 2 (AREDS2) randomized clinical trial." JAMA, 309(19): 2005-2015. PMID: 23644932.',
+        pmid: '23644932',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/23644932/'
+      },
+      {
+        authorYear: 'Falsini B, Piccardi M, Minnella A, et al. (2010)',
+        citationText:
+          '"Influence of saffron supplementation on retinal flicker sensitivity in early age-related macular degeneration." Investigative Ophthalmology & Visual Science, 51(12): 6118-6124. PMID: 20688744.',
+        pmid: '20688744',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/20688744/'
+      },
+      {
+        authorYear: 'Quaranta L, Bettelli S, Uva MG, et al. (2003)',
+        citationText:
+          '"Effect of Ginkgo biloba extract on preexisting visual field damage in normal tension glaucoma." American Journal of Ophthalmology, 135(6): 744-747. PMID: 12788136.',
+        pmid: '12788136',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/12788136/'
+      }
+    ]
   }
 };
 
@@ -979,7 +1120,9 @@ export const ProductReviewPage: React.FC<ProductReviewPageProps> = ({
             <img
               src={
                 imgError
-                  ? product.id === 'prod-neuroserge-memory-complex'
+                  ? product.id === 'prod-igenics-vision-breakthrough'
+                    ? '/images/products/igenics-bottles.png'
+                    : product.id === 'prod-neuroserge-memory-complex'
                     ? '/images/products/neuroserge-bottles.webp'
                     : product.id === 'prod-prostavive-prostate-vitality'
                     ? '/images/products/prostavive-bottles.png'
