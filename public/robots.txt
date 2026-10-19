@@ -42,3 +42,6 @@ Allow: /logo.svg
 
 # Sitemaps and Feeds
 Sitemap: https://77-review.vercel.app/sitemap.xml
+Sitemap: https://77-review.vercel.app/sitemap.txt
+Sitemap: https://77-review.vercel.app/urllist.txt
+Sitemap: https://77-review.vercel.app/rss.xml
