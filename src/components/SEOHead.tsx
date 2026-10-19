@@ -275,10 +275,35 @@ export function SEOHead({ currentPath, article, product, categoryId, legalSlug }
       element.setAttribute(attr, value);
     };
 
-    // 2. Meta description & robots
+    // 1. Document Title
+    document.title = title;
+
+    // 2. Search Engines & Bot Directives
     setMetaTag('meta[name="description"]', 'content', description);
     setMetaTag('meta[name="robots"]', 'content', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
     setMetaTag('meta[name="bingbot"]', 'content', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
+    setMetaTag('meta[name="googlebot"]', 'content', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
+    
+    // Webmaster Tools Verifications (Google & Bing)
+    setMetaTag('meta[name="google-site-verification"]', 'content', 'Tw2_G_Dh0nhpJqxp1DJhe6vuEVKg2xwd_ZF0_Bifm7k');
+    setMetaTag('meta[name="msvalidate.01"]', 'content', '1E9E1663EADAA48AB0D82D4FB3D116E9');
+
+    // Page-specific Keywords
+    let keywords = 'evidence-based health reviews, dietary supplement evaluations, clinical trials, health science, nutrition';
+    if (product) {
+      const ingList = product.ingredients ? product.ingredients.map(i => i.name).slice(0, 4).join(', ') : '';
+      keywords = `${product.name}, ${product.brand}, ${product.category}${ingList ? `, ${ingList}` : ''}, supplement review, ingredients, dosage, clinical evidence`;
+    } else if (article) {
+      keywords = `${article.title}, ${article.category}, clinical research, medical evidence, randomized controlled trials, nutritional science`;
+    } else if (categoryId) {
+      keywords = `${title}, evidence reviews, health and wellness, clinical grading`;
+    } else if (currentPath.startsWith('/ingredients')) {
+      keywords = 'supplement ingredients directory, clinical evidence grades, botanical extracts, vitamins, nootropics, optimal dosage';
+    } else if (currentPath.startsWith('/comparisons') || currentPath.startsWith('/compare')) {
+      keywords = 'supplement formulation comparison, clinical evidence matrix, cost per serving comparison, dietary supplement benchmarks';
+    }
+    setMetaTag('meta[name="keywords"]', 'content', keywords);
+    setMetaTag('meta[name="author"]', 'content', '77 Review Editorial & Clinical Research Board');
 
     // 3. Canonical Link
     let canonical = document.querySelector('link[rel="canonical"]');
@@ -295,13 +320,27 @@ export function SEOHead({ currentPath, article, product, categoryId, legalSlug }
     setMetaTag('meta[property="og:url"]', 'content', canonicalUrl);
     setMetaTag('meta[property="og:type"]', 'content', ogType);
     setMetaTag('meta[property="og:image"]', 'content', imageUrl);
+    setMetaTag('meta[property="og:image:alt"]', 'content', title);
+    setMetaTag('meta[property="og:image:width"]', 'content', '1200');
+    setMetaTag('meta[property="og:image:height"]', 'content', '630');
     setMetaTag('meta[property="og:site_name"]', 'content', '77 Review');
+    setMetaTag('meta[property="og:locale"]', 'content', 'en_US');
+
+    // Article Specific OpenGraph Metadata
+    if (article) {
+      setMetaTag('meta[property="article:published_time"]', 'content', article.publishDate || '2026-10-18');
+      setMetaTag('meta[property="article:modified_time"]', 'content', article.lastUpdatedDate || '2026-10-19');
+      setMetaTag('meta[property="article:section"]', 'content', article.category);
+    }
 
     // 5. Twitter Card Tags
     setMetaTag('meta[name="twitter:card"]', 'content', 'summary_large_image');
     setMetaTag('meta[name="twitter:title"]', 'content', title);
     setMetaTag('meta[name="twitter:description"]', 'content', description);
     setMetaTag('meta[name="twitter:image"]', 'content', imageUrl);
+    setMetaTag('meta[name="twitter:image:alt"]', 'content', title);
+    setMetaTag('meta[name="twitter:domain"]', 'content', '77-review.vercel.app');
+    setMetaTag('meta[name="twitter:url"]', 'content', canonicalUrl);
 
     // 6. Dynamic Page Schema JSON-LD Graph
     const dynamicSchemaId = 'dynamic-page-schema';
