@@ -1,4 +1,4 @@
-# robots.txt for https://77-review.ai.studio/
+# robots.txt for https://77-review.vercel.app/
 # Optimized for Google Search Console, Bing Webmaster Tools, and IndexNow
 
 User-agent: *
@@ -41,4 +41,4 @@ Allow: /logo*.png
 Allow: /logo.svg
 
 # Sitemaps and Feeds
-Sitemap: https://77-review.ai.studio/sitemap.xml
+Sitemap: https://77-review.vercel.app/sitemap.xml

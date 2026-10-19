@@ -2,180 +2,180 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://77-review.ai.studio/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Product Reviews (High Priority Commercial & Editorial Content) -->
   <url>
-    <loc>https://77-review.ai.studio/review/phytomem-one-brain-memory-review</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/review/phytomem-one-brain-memory-review</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/review/prodentim-advanced-oral-probiotics-review</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/review/prodentim-advanced-oral-probiotics-review</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/review/audisoothe-ear-health-tinnitus-drops-review</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/review/audisoothe-ear-health-tinnitus-drops-review</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/review/prostavive-prostate-health-vitality-review</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/review/prostavive-prostate-health-vitality-review</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/review/neuroserge-memory-focus-brain-health-review</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/review/neuroserge-memory-focus-brain-health-review</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/review/igenics-vision-breakthrough-eye-health-review</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/review/igenics-vision-breakthrough-eye-health-review</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
 
   <!-- Editorial Research Guides & Clinical Deep-Dives -->
   <url>
-    <loc>https://77-review.ai.studio/article/brain-glucose-metabolism-saffron-berberine-cognitive-health</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/article/brain-glucose-metabolism-saffron-berberine-cognitive-health</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/article/oral-microbiome-probiotics-periodontal-health-science</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/article/oral-microbiome-probiotics-periodontal-health-science</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/article/auditory-nerve-hyperactivity-cochlear-microcirculation-tinnitus</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/article/auditory-nerve-hyperactivity-cochlear-microcirculation-tinnitus</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/article/prostate-cellular-health-nocturia-urinary-flow-science</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/article/prostate-cellular-health-nocturia-urinary-flow-science</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/article/neuro-immune-microglia-synaptic-plasticity-science</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/article/neuro-immune-microglia-synaptic-plasticity-science</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/article/macular-carotenoids-retinal-photoreceptor-science</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/article/macular-carotenoids-retinal-photoreceptor-science</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
 
   <!-- Topic & Category Archives -->
   <url>
-    <loc>https://77-review.ai.studio/category/health-wellness</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/category/health-wellness</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/category/fitness-sports</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/category/fitness-sports</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/category/supplements-nutrition</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/category/supplements-nutrition</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/category/product-reviews-comparisons</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/category/product-reviews-comparisons</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <!-- Interactive Comparison Tool & Scientific Ingredient Index -->
   <url>
-    <loc>https://77-review.ai.studio/comparisons</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/comparisons</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/ingredients</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/ingredients</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <!-- Institutional Governance, Transparency & Legal -->
   <url>
-    <loc>https://77-review.ai.studio/about</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/about</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/editorial-policy</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/editorial-policy</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/methodology</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/methodology</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/medical-review</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/medical-review</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/affiliate-disclosure</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/affiliate-disclosure</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/corrections</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/corrections</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/contact</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/contact</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/privacy</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/privacy</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
-    <loc>https://77-review.ai.studio/terms</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://77-review.vercel.app/terms</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>

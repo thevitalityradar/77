@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
   tagline: 'Evidence-Aware Health, Fitness & Supplement Reviews',
   description:
     'Independent editorial publication delivering evidence-backed reviews, transparent comparisons, and scientific buying guides for health and fitness products.',
-  url: 'https://77-review.ai.studio',
+  url: 'https://77-review.vercel.app',
   primaryMarket: 'United States',
   contactEmail: 'thevitalityradar@gmail.com',
   editorialDeskEmail: 'editorial@77review.com',

@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>77 Review – Evidence-Aware Health, Fitness &amp; Supplement Reviews</title>
-    <link>https://77-review.ai.studio/</link>
+    <link>https://77-review.vercel.app/</link>
     <description>Independent health, fitness, and supplement editorial publication delivering evidence-backed reviews, transparent comparisons, and scientific buying guides.</description>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Oct 2026 23:00:00 GMT</lastBuildDate>
-    <atom:link href="https://77-review.ai.studio/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://77-review.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
 
     <item>
       <title>iGenics Review: Clinical Evaluation of AREDS-2 &amp; Botanical Vision Restoration Formula</title>
-      <link>https://77-review.ai.studio/review/igenics-vision-breakthrough-eye-health-review</link>
-      <guid isPermaLink="true">https://77-review.ai.studio/review/igenics-vision-breakthrough-eye-health-review</guid>
+      <link>https://77-review.vercel.app/review/igenics-vision-breakthrough-eye-health-review</link>
+      <guid isPermaLink="true">https://77-review.vercel.app/review/igenics-vision-breakthrough-eye-health-review</guid>
       <description>Desk review and human clinical trial analysis of Lutein, Zeaxanthin, Ginkgo Biloba, Bilberry, and Saffron for macular pigment optical density and night vision clarity.</description>
       <pubDate>Mon, 19 Oct 2026 03:40:00 GMT</pubDate>
     </item>
 
     <item>
       <title>Neuro Serge Review: Clinical Analysis of the Neuro-Immune &amp; Memory Restoration Formula</title>
-      <link>https://77-review.ai.studio/review/neuroserge-memory-focus-brain-health-review</link>
-      <guid isPermaLink="true">https://77-review.ai.studio/review/neuroserge-memory-focus-brain-health-review</guid>
+      <link>https://77-review.vercel.app/review/neuroserge-memory-focus-brain-health-review</link>
+      <guid isPermaLink="true">https://77-review.vercel.app/review/neuroserge-memory-focus-brain-health-review</guid>
       <description>Desk review and human clinical trial evaluation of Phosphatidylserine, Bacopa Monnieri, and Huperzine A for cognitive longevity and memory retrieval.</description>
       <pubDate>Sun, 18 Oct 2026 22:50:00 GMT</pubDate>
     </item>
 
     <item>
       <title>ProstaVive Review: Clinical Science of Botanical Modulation for Male Prostate &amp; Nocturnal Vitality</title>
-      <link>https://77-review.ai.studio/review/prostavive-prostate-health-vitality-review</link>
-      <guid isPermaLink="true">https://77-review.ai.studio/review/prostavive-prostate-health-vitality-review</guid>
+      <link>https://77-review.vercel.app/review/prostavive-prostate-health-vitality-review</link>
+      <guid isPermaLink="true">https://77-review.vercel.app/review/prostavive-prostate-health-vitality-review</guid>
       <description>Investigation into the Boron, Tongkat Ali, Ashwagandha, and Nettle root formulation designed to support healthy prostate volume, strong stream, and uninterrupted sleep.</description>
       <pubDate>Sun, 18 Oct 2026 22:40:00 GMT</pubDate>
     </item>
 
     <item>
       <title>AudiSoothe Review: Sublingual Auditory Support &amp; Tinnitus Relief Analysis</title>
-      <link>https://77-review.ai.studio/review/audisoothe-ear-health-tinnitus-drops-review</link>
-      <guid isPermaLink="true">https://77-review.ai.studio/review/audisoothe-ear-health-tinnitus-drops-review</guid>
+      <link>https://77-review.vercel.app/review/audisoothe-ear-health-tinnitus-drops-review</link>
+      <guid isPermaLink="true">https://77-review.vercel.app/review/audisoothe-ear-health-tinnitus-drops-review</guid>
       <description>Clinical review examining sublingual bioflavonoids, GABA, and inner ear cochlear microcirculation.</description>
       <pubDate>Sun, 18 Oct 2026 20:00:00 GMT</pubDate>
     </item>
 
     <item>
       <title>ProDentim Review: Can an Oral Probiotic Really Support Gums &amp; Teeth?</title>
-      <link>https://77-review.ai.studio/review/prodentim-advanced-oral-probiotics-review</link>
-      <guid isPermaLink="true">https://77-review.ai.studio/review/prodentim-advanced-oral-probiotics-review</guid>
+      <link>https://77-review.vercel.app/review/prodentim-advanced-oral-probiotics-review</link>
+      <guid isPermaLink="true">https://77-review.vercel.app/review/prodentim-advanced-oral-probiotics-review</guid>
       <description>A scientific examination of 3.5 billion CFU oral probiotic strains including BL-04, B.lactis, and Inulin.</description>
       <pubDate>Sun, 18 Oct 2026 18:00:00 GMT</pubDate>
     </item>
 
     <item>
       <title>PhytoMemone Review: Does Saffron &amp; Berberine Support Cellular Brain Glucose?</title>
-      <link>https://77-review.ai.studio/review/phytomem-one-brain-memory-review</link>
-      <guid isPermaLink="true">https://77-review.ai.studio/review/phytomem-one-brain-memory-review</guid>
+      <link>https://77-review.vercel.app/review/phytomem-one-brain-memory-review</link>
+      <guid isPermaLink="true">https://77-review.vercel.app/review/phytomem-one-brain-memory-review</guid>
       <description>Clinical analysis of standardized Persian Crocus sativus, Berberine HCl, and Ceylon Cinnamon for metabolic cognitive fuel.</description>
       <pubDate>Sun, 18 Oct 2026 16:00:00 GMT</pubDate>
     </item>
@@ -59,16 +59,16 @@
     <!-- Research Articles -->
     <item>
       <title>Neuro-Immune Microglia &amp; Synaptic Plasticity: The Clinical Science of Phosphatidylserine, Huperzine A &amp; Bacopa</title>
-      <link>https://77-review.ai.studio/article/neuro-immune-microglia-synaptic-plasticity-science</link>
-      <guid isPermaLink="true">https://77-review.ai.studio/article/neuro-immune-microglia-synaptic-plasticity-science</guid>
+      <link>https://77-review.vercel.app/article/neuro-immune-microglia-synaptic-plasticity-science</link>
+      <guid isPermaLink="true">https://77-review.vercel.app/article/neuro-immune-microglia-synaptic-plasticity-science</guid>
       <description>Examining how chronic microglial activation and neuro-immune senescence impair synaptic transmission in aging adults.</description>
       <pubDate>Sun, 18 Oct 2026 22:50:00 GMT</pubDate>
     </item>
 
     <item>
       <title>Prostate Cellular Architecture &amp; Nocturnal Urinary Frequency: Clinical Science of Botanical Modulation</title>
-      <link>https://77-review.ai.studio/article/prostate-cellular-health-nocturia-urinary-flow-science</link>
-      <guid isPermaLink="true">https://77-review.ai.studio/article/prostate-cellular-health-nocturia-urinary-flow-science</guid>
+      <link>https://77-review.vercel.app/article/prostate-cellular-health-nocturia-urinary-flow-science</link>
+      <guid isPermaLink="true">https://77-review.vercel.app/article/prostate-cellular-health-nocturia-urinary-flow-science</guid>
       <description>Cellular mechanics of benign prostatic stromal expansion, DHT binding kinetics, and evidence-backed botanical modulation.</description>
       <pubDate>Sun, 18 Oct 2026 22:40:00 GMT</pubDate>
     </item>

@@ -11,7 +11,7 @@ interface SEOHeadProps {
   legalSlug?: string;
 }
 
-const BASE_URL = 'https://77-review.ai.studio';
+const BASE_URL = 'https://77-review.vercel.app';
 const DEFAULT_TITLE = '77 Review – Evidence-Aware Health, Fitness & Supplement Reviews';
 const DEFAULT_DESC =
   'Independent health, fitness, and supplement editorial publication delivering evidence-backed reviews, transparent comparisons, and scientific buying guides.';
