@@ -275,8 +275,11 @@ export function SEOHead({ currentPath, article, product, categoryId, legalSlug }
       element.setAttribute(attr, value);
     };
 
-    // 1. Document Title
+    // 1. Document Title & Language
     document.title = title;
+    if (document.documentElement.lang !== 'en') {
+      document.documentElement.lang = 'en';
+    }
 
     // 2. Search Engines & Bot Directives
     setMetaTag('meta[name="description"]', 'content', description);
@@ -331,6 +334,15 @@ export function SEOHead({ currentPath, article, product, categoryId, legalSlug }
       setMetaTag('meta[property="article:published_time"]', 'content', article.publishDate || '2026-10-18');
       setMetaTag('meta[property="article:modified_time"]', 'content', article.lastUpdatedDate || '2026-10-19');
       setMetaTag('meta[property="article:section"]', 'content', article.category);
+    }
+
+    // Product Specific OpenGraph & Commerce Metadata
+    if (product) {
+      setMetaTag('meta[property="product:brand"]', 'content', product.brand);
+      setMetaTag('meta[property="product:price:amount"]', 'content', String(product.price || 49));
+      setMetaTag('meta[property="product:price:currency"]', 'content', product.currency || 'USD');
+      setMetaTag('meta[property="product:availability"]', 'content', 'in stock');
+      setMetaTag('meta[property="product:condition"]', 'content', 'new');
     }
 
     // 5. Twitter Card Tags
