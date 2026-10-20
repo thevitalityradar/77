@@ -31,15 +31,33 @@ export const ArticleDetailPage: React.FC<ArticleDetailPageProps> = ({
   return (
     <article className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-10">
       
-      {/* Navigation Breadcrumb */}
-      <div className="flex items-center justify-between border-b border-stone-200 pb-4">
-        <button
-          onClick={() => onNavigate(`/category/${article.category}`)}
-          className="inline-flex items-center gap-1.5 text-xs text-stone-500 hover:text-stone-900 transition-colors"
-        >
-          <ArrowLeft className="w-3.5 h-3.5" />
-          <span>Back to Category Archive</span>
-        </button>
+      {/* Navigation Breadcrumb (Internal Hyperlinks for Bingbot & Crawlers) */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-stone-200 pb-4">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs font-mono text-stone-500">
+          <a
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+              onNavigate('/');
+            }}
+            className="hover:text-stone-900 transition-colors"
+          >
+            Home
+          </a>
+          <span aria-hidden="true" className="text-stone-300">/</span>
+          <a
+            href={`/category/${article.category}`}
+            onClick={(e) => {
+              e.preventDefault();
+              onNavigate(`/category/${article.category}`);
+            }}
+            className="hover:text-stone-900 transition-colors capitalize"
+          >
+            {article.category.replace('-', ' ')}
+          </a>
+          <span aria-hidden="true" className="text-stone-300">/</span>
+          <span className="text-stone-700 font-medium truncate max-w-xs">{article.title}</span>
+        </nav>
 
         <div className="flex items-center gap-2">
           {onOpenGovernance && (
@@ -303,15 +321,43 @@ export const ArticleDetailPage: React.FC<ArticleDetailPageProps> = ({
                   <EvidenceBadge grade={rel.evidenceGrade} size="sm" />
                 </div>
                 <h4 className="text-sm font-semibold text-stone-900">
-                  <button
-                    onClick={() => onNavigate(`/article/${rel.slug}`)}
-                    className="text-left hover:text-emerald-800"
+                  <a
+                    href={`/article/${rel.slug}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      onNavigate(`/article/${rel.slug}`);
+                    }}
+                    className="text-left hover:text-emerald-800 transition-colors block"
                   >
                     {rel.title}
-                  </button>
+                  </a>
                 </h4>
               </div>
             ))}
+          </div>
+
+          {/* Cross-linking to Evidence Hub & Comparisons */}
+          <div className="pt-6 mt-4 border-t border-stone-200 flex flex-wrap items-center justify-between gap-4 text-xs">
+            <a
+              href="/ingredients"
+              onClick={(e) => {
+                e.preventDefault();
+                onNavigate('/ingredients');
+              }}
+              className="text-emerald-800 hover:text-emerald-950 font-semibold underline underline-offset-2"
+            >
+              → Browse Clinical Dosages in Ingredients Directory
+            </a>
+            <a
+              href="/comparisons"
+              onClick={(e) => {
+                e.preventDefault();
+                onNavigate('/comparisons');
+              }}
+              className="text-emerald-800 hover:text-emerald-950 font-semibold underline underline-offset-2"
+            >
+              → Compare Formulas in Head-to-Head Matrix
+            </a>
           </div>
         </section>
       )}

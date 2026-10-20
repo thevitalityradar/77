@@ -64,12 +64,16 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           </div>
 
           <h3 className="text-base font-semibold text-stone-900 leading-snug tracking-tight mb-2">
-            <button
-              onClick={() => onNavigateToReview?.(product.slug)}
-              className="text-left hover:text-emerald-800 transition-colors"
+            <a
+              href={`/review/${product.slug}`}
+              onClick={(e) => {
+                e.preventDefault();
+                onNavigateToReview?.(product.slug);
+              }}
+              className="text-left hover:text-emerald-800 transition-colors block"
             >
               {product.name}
-            </button>
+            </a>
           </h3>
 
           <p className="text-xs text-stone-600 line-clamp-2 leading-relaxed mb-4">
@@ -118,12 +122,16 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           </div>
 
           <div className="flex items-center gap-2">
-            <button
-              onClick={() => onNavigateToReview?.(product.slug)}
-              className="flex-1 py-2 px-3 text-xs font-semibold text-stone-800 bg-stone-100 hover:bg-stone-200 transition-colors text-center"
+            <a
+              href={`/review/${product.slug}`}
+              onClick={(e) => {
+                e.preventDefault();
+                onNavigateToReview?.(product.slug);
+              }}
+              className="flex-1 py-2 px-3 text-xs font-semibold text-stone-800 bg-stone-100 hover:bg-stone-200 transition-colors text-center block"
             >
               Full Evidence Review
-            </button>
+            </a>
             <a
               href={product.affiliateUrl}
               target="_blank"

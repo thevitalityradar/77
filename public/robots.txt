@@ -13,7 +13,6 @@ Allow: /
 Disallow: /api/
 Disallow: /admin/
 Disallow: /*?*preview=true
-Crawl-delay: 1
 
 User-agent: msnbot
 Allow: /
@@ -40,8 +39,9 @@ Allow: /products/
 Allow: /logo*.png
 Allow: /logo.svg
 
-# Sitemaps and Feeds
+# Sitemaps and Feeds (XML, TXT, RSS, ATOM)
 Sitemap: https://77-review.vercel.app/sitemap.xml
 Sitemap: https://77-review.vercel.app/sitemap.txt
 Sitemap: https://77-review.vercel.app/urllist.txt
 Sitemap: https://77-review.vercel.app/rss.xml
+Sitemap: https://77-review.vercel.app/atom.xml

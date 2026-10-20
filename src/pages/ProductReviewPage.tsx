@@ -1020,15 +1020,33 @@ export const ProductReviewPage: React.FC<ProductReviewPageProps> = ({
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
       
-      {/* 1. Breadcrumb & Compliance Action */}
-      <nav aria-label="Breadcrumb" className="flex items-center justify-between border-b border-stone-200 pb-3 text-xs">
-        <button
-          onClick={() => onNavigate('/')}
-          className="inline-flex items-center gap-1.5 text-stone-500 hover:text-stone-900 transition-colors"
-        >
-          <ArrowLeft className="w-3.5 h-3.5" />
-          <span>Home / Supplement Reviews</span>
-        </button>
+      {/* 1. Breadcrumb & Compliance Action (Internal Hyperlinks for Bingbot & UX) */}
+      <nav aria-label="Breadcrumb" className="flex items-center justify-between border-b border-stone-200 pb-3 text-xs font-mono">
+        <div className="flex items-center gap-2 text-stone-500">
+          <a
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+              onNavigate('/');
+            }}
+            className="hover:text-stone-900 transition-colors"
+          >
+            Home
+          </a>
+          <span aria-hidden="true" className="text-stone-300">/</span>
+          <a
+            href="/category/supplements-nutrition"
+            onClick={(e) => {
+              e.preventDefault();
+              onNavigate('/category/supplements-nutrition');
+            }}
+            className="hover:text-stone-900 transition-colors"
+          >
+            Supplements & Nutrition
+          </a>
+          <span aria-hidden="true" className="text-stone-300">/</span>
+          <span className="text-stone-700 font-medium truncate max-w-xs">{product.name}</span>
+        </div>
 
         <div className="flex items-center gap-3">
           <button
@@ -1674,6 +1692,88 @@ export const ProductReviewPage: React.FC<ProductReviewPageProps> = ({
               </a>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* ========================================================= */}
+      {/* 4.14.5 RELATED CLINICAL RESEARCH & INTERNAL HYPERLINKS */}
+      {/* ========================================================= */}
+      <section className="pt-8 border-t border-stone-200 space-y-6">
+        <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 border-b border-stone-200 pb-3">
+          <h2 className="text-xl font-serif font-bold text-stone-900">
+            Related Clinical Research &amp; Formulation Comparisons
+          </h2>
+          <span className="text-xs font-mono text-stone-500">
+            Internal Evidence Network
+          </span>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+          <div className="p-4 border border-stone-200 bg-white space-y-2">
+            <span className="text-[11px] font-mono uppercase tracking-wider text-emerald-800 font-semibold block">
+              Clinical Dosing
+            </span>
+            <strong className="text-sm font-semibold text-stone-900 block">
+              Active Botanical Database
+            </strong>
+            <p className="text-stone-600 leading-relaxed">
+              Audit the peer-reviewed human trials and therapeutic dosage thresholds for {product.name}'s active compounds.
+            </p>
+            <a
+              href="/ingredients"
+              onClick={(e) => {
+                e.preventDefault();
+                onNavigate('/ingredients');
+              }}
+              className="text-emerald-800 font-semibold hover:underline inline-block pt-1"
+            >
+              Explore Ingredients Index →
+            </a>
+          </div>
+
+          <div className="p-4 border border-stone-200 bg-white space-y-2">
+            <span className="text-[11px] font-mono uppercase tracking-wider text-emerald-800 font-semibold block">
+              Market Benchmarking
+            </span>
+            <strong className="text-sm font-semibold text-stone-900 block">
+              Head-to-Head Comparison Matrix
+            </strong>
+            <p className="text-stone-600 leading-relaxed">
+              Compare {product.name} against leading alternatives on price per serving, clinical evidence grades, and refund guarantees.
+            </p>
+            <a
+              href="/comparisons"
+              onClick={(e) => {
+                e.preventDefault();
+                onNavigate('/comparisons');
+              }}
+              className="text-emerald-800 font-semibold hover:underline inline-block pt-1"
+            >
+              Open Comparison Matrix →
+            </a>
+          </div>
+
+          <div className="p-4 border border-stone-200 bg-white space-y-2">
+            <span className="text-[11px] font-mono uppercase tracking-wider text-emerald-800 font-semibold block">
+              Institutional Trust
+            </span>
+            <strong className="text-sm font-semibold text-stone-900 block">
+              Clinical Review Standards
+            </strong>
+            <p className="text-stone-600 leading-relaxed">
+              Learn how our medical board evaluates randomized controlled trials, Certificate of Analysis assays, and refund policies.
+            </p>
+            <a
+              href="/methodology"
+              onClick={(e) => {
+                e.preventDefault();
+                onNavigate('/methodology');
+              }}
+              className="text-emerald-800 font-semibold hover:underline inline-block pt-1"
+            >
+              Read Review Methodology →
+            </a>
+          </div>
         </div>
       </section>
 

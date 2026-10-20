@@ -6,7 +6,7 @@ import { ProductCard } from '../components/ProductCard';
 import { EvidenceBadge } from '../components/EvidenceBadge';
 import { getAuthorById } from '../data/authors';
 import { ProductCategory, ProductRecord } from '../types';
-import { ArrowLeft, BookOpen, Layers, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, BookOpen, Layers, CheckCircle2, ChevronRight } from 'lucide-react';
 import { AffiliateDisclosureBanner } from '../components/AffiliateDisclosureBanner';
 
 interface CategoryPageProps {
@@ -27,16 +27,43 @@ export const CategoryPage: React.FC<CategoryPageProps> = ({
   const categoryProducts = PRODUCTS.filter(p => p.category === categoryId);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
-      {/* Breadcrumb Back */}
-      <div>
-        <button
-          onClick={() => onNavigate('/')}
-          className="inline-flex items-center gap-1.5 text-xs text-stone-500 hover:text-stone-900 transition-colors"
-        >
-          <ArrowLeft className="w-3.5 h-3.5" />
-          <span>Back to All Categories</span>
-        </button>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-10">
+      {/* Breadcrumb Navigation & Category Cross-Links (Internal Hyperlinks for Bingbot) */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-xs font-mono border-b border-stone-200 pb-4">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-stone-500">
+          <a
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+              onNavigate('/');
+            }}
+            className="hover:text-stone-900 transition-colors"
+          >
+            Home
+          </a>
+          <ChevronRight className="w-3 h-3 text-stone-400" />
+          <span className="text-stone-900 font-medium">{category.title}</span>
+        </nav>
+
+        {/* Other Category Hubs */}
+        <div className="flex flex-wrap items-center gap-2 text-[11px] text-stone-500">
+          <span className="font-semibold text-stone-700">Explore Departments:</span>
+          {CATEGORIES.map(cat => (
+            <a
+              key={cat.id}
+              href={`/category/${cat.id}`}
+              onClick={(e) => {
+                e.preventDefault();
+                onNavigate(`/category/${cat.id}`);
+              }}
+              className={`hover:text-stone-900 transition-colors ${
+                cat.id === categoryId ? 'text-emerald-800 font-bold underline' : ''
+              }`}
+            >
+              {cat.shortTitle}
+            </a>
+          ))}
+        </div>
       </div>
 
       {/* Category Header Hero */}
@@ -126,12 +153,16 @@ export const CategoryPage: React.FC<CategoryPageProps> = ({
                     </div>
 
                     <h3 className="text-lg font-serif font-bold text-stone-900 leading-snug">
-                      <button
-                        onClick={() => onNavigate(`/article/${article.slug}`)}
-                        className="text-left hover:text-emerald-800 transition-colors"
+                      <a
+                        href={`/article/${article.slug}`}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          onNavigate(`/article/${article.slug}`);
+                        }}
+                        className="text-left hover:text-emerald-800 transition-colors block"
                       >
                         {article.title}
-                      </button>
+                      </a>
                     </h3>
 
                     <p className="text-xs text-stone-600 line-clamp-2 leading-relaxed">
@@ -143,12 +174,17 @@ export const CategoryPage: React.FC<CategoryPageProps> = ({
                     <span className="text-stone-500">
                       Author: <strong className="text-stone-700">{author.name}</strong>
                     </span>
-                    <button
-                      onClick={() => onNavigate(`/article/${article.slug}`)}
-                      className="text-emerald-800 font-semibold hover:underline"
+                    <a
+                      href={`/article/${article.slug}`}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        onNavigate(`/article/${article.slug}`);
+                      }}
+                      className="text-emerald-800 font-semibold hover:underline inline-flex items-center gap-1"
                     >
-                      Read Full Article →
-                    </button>
+                      <span>Read Full Article</span>
+                      <span>→</span>
+                    </a>
                   </div>
                 </article>
               );

@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
-import { ShieldCheck, FileText, CheckCircle2, AlertCircle, Mail, MapPin, ExternalLink, HelpCircle } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { ShieldCheck, FileText, CheckCircle2, AlertCircle, Mail, MapPin, ExternalLink, HelpCircle, ChevronRight } from 'lucide-react';
 import { SITE_CONFIG } from '../data/siteConfig';
 import { REVIEWERS, AUTHORS } from '../data/authors';
+import { METADATA_CATALOG } from '../data/metadataCatalog';
 
 interface TrustAndLegalPagesProps {
   initialSlug?: string;
@@ -13,6 +14,12 @@ export const TrustAndLegalPages: React.FC<TrustAndLegalPagesProps> = ({
   onNavigate
 }) => {
   const [activeSlug, setActiveSlug] = useState(initialSlug);
+
+  useEffect(() => {
+    if (initialSlug && initialSlug !== activeSlug) {
+      setActiveSlug(initialSlug);
+    }
+  }, [initialSlug]);
 
   const tabs = [
     { slug: 'about', label: 'About 77 Review' },
@@ -26,29 +33,52 @@ export const TrustAndLegalPages: React.FC<TrustAndLegalPagesProps> = ({
     { slug: 'terms', label: 'Terms of Use' }
   ];
 
+  const pageMeta = METADATA_CATALOG[`/${activeSlug}`] || METADATA_CATALOG['/about'];
+
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-10">
       
-      {/* Header */}
+      {/* Breadcrumb Navigation (Internal Hyperlinks for Bingbot & UX) */}
+      <nav aria-label="Breadcrumb" className="text-xs text-stone-500 font-mono flex items-center gap-2">
+        <a
+          href="/"
+          onClick={(e) => {
+            e.preventDefault();
+            onNavigate('/');
+          }}
+          className="hover:text-stone-900 transition-colors"
+        >
+          Home
+        </a>
+        <ChevronRight className="w-3 h-3 text-stone-400" />
+        <span className="text-stone-700 font-medium">{tabs.find(t => t.slug === activeSlug)?.label || 'Governance'}</span>
+      </nav>
+
+      {/* Header with Unique Page H1 matching Bing Webmaster Guidelines */}
       <div className="border border-stone-200 bg-white p-6 sm:p-10 space-y-3">
         <div className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-800 font-semibold">
           <ShieldCheck className="w-4 h-4 text-emerald-700" />
-          <span>Transparency & Governance Documentation</span>
+          <span>Editorial Governance & Institutional Transparency</span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-serif font-bold text-stone-900 tracking-tight">
-          Trust, Editorial Standards & Legal Governance
+          {pageMeta.h1}
         </h1>
         <p className="text-stone-600 text-sm sm:text-base leading-relaxed max-w-3xl">
-          Documenting our research hierarchy, medical reviewer standards, affiliate independence pledge, and privacy controls.
+          {pageMeta.description}
         </p>
       </div>
 
-      {/* Tabs Navigation */}
-      <div className="flex flex-wrap items-center gap-1 p-1 bg-stone-100 border border-stone-200">
+      {/* Tabs Navigation using Semantic Anchor Links */}
+      <div className="flex flex-wrap items-center gap-1 p-1 bg-stone-100 border border-stone-200" role="tablist">
         {tabs.map(tab => (
-          <button
+          <a
             key={tab.slug}
-            onClick={() => setActiveSlug(tab.slug)}
+            href={`/${tab.slug}`}
+            onClick={(e) => {
+              e.preventDefault();
+              setActiveSlug(tab.slug);
+              onNavigate(`/${tab.slug}`);
+            }}
             className={`py-2 px-3 text-xs font-medium transition-colors ${
               activeSlug === tab.slug
                 ? 'bg-white text-stone-900 shadow-xs font-semibold'
@@ -56,7 +86,7 @@ export const TrustAndLegalPages: React.FC<TrustAndLegalPagesProps> = ({
             }`}
           >
             {tab.label}
-          </button>
+          </a>
         ))}
       </div>
 

@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { ArticleRecord, ProductRecord } from '../types';
 import { getCategoryById } from '../data/categories';
 import { AUTHORS, getAuthorById, getReviewerById } from '../data/authors';
+import { getPageMetadata } from '../data/metadataCatalog';
 
 interface SEOHeadProps {
   currentPath: string;
@@ -12,18 +13,17 @@ interface SEOHeadProps {
 }
 
 const BASE_URL = 'https://77-review.vercel.app';
-const DEFAULT_TITLE = '77 Review – Evidence-Aware Health, Fitness & Supplement Reviews';
-const DEFAULT_DESC =
-  'Independent health, fitness, and supplement editorial publication delivering evidence-backed reviews, transparent comparisons, and scientific buying guides.';
 const DEFAULT_IMAGE = `${BASE_URL}/logo-77review.png`;
+const DEFAULT_DESC = 'Independent health, fitness, and dietary supplement editorial publication delivering evidence-backed reviews, transparent comparisons, and scientific buying guides.';
 
 export function SEOHead({ currentPath, article, product, categoryId, legalSlug }: SEOHeadProps) {
   useEffect(() => {
-    let title = DEFAULT_TITLE;
-    let description = DEFAULT_DESC;
     const cleanPath = currentPath === '/' ? '' : currentPath;
+    const pageMeta = getPageMetadata(cleanPath || '/');
+    let title = pageMeta.title;
+    let description = pageMeta.description;
     const canonicalUrl = `${BASE_URL}${cleanPath || '/'}`;
-    let ogType = 'website';
+    let ogType = pageMeta.ogType || 'website';
     let imageUrl = DEFAULT_IMAGE;
     let graphItems: object[] = [];
 
@@ -291,20 +291,8 @@ export function SEOHead({ currentPath, article, product, categoryId, legalSlug }
     setMetaTag('meta[name="google-site-verification"]', 'content', 'Tw2_G_Dh0nhpJqxp1DJhe6vuEVKg2xwd_ZF0_Bifm7k');
     setMetaTag('meta[name="msvalidate.01"]', 'content', '1E9E1663EADAA48AB0D82D4FB3D116E9');
 
-    // Page-specific Keywords
-    let keywords = 'evidence-based health reviews, dietary supplement evaluations, clinical trials, health science, nutrition';
-    if (product) {
-      const ingList = product.ingredients ? product.ingredients.map(i => i.name).slice(0, 4).join(', ') : '';
-      keywords = `${product.name}, ${product.brand}, ${product.category}${ingList ? `, ${ingList}` : ''}, supplement review, ingredients, dosage, clinical evidence`;
-    } else if (article) {
-      keywords = `${article.title}, ${article.category}, clinical research, medical evidence, randomized controlled trials, nutritional science`;
-    } else if (categoryId) {
-      keywords = `${title}, evidence reviews, health and wellness, clinical grading`;
-    } else if (currentPath.startsWith('/ingredients')) {
-      keywords = 'supplement ingredients directory, clinical evidence grades, botanical extracts, vitamins, nootropics, optimal dosage';
-    } else if (currentPath.startsWith('/comparisons') || currentPath.startsWith('/compare')) {
-      keywords = 'supplement formulation comparison, clinical evidence matrix, cost per serving comparison, dietary supplement benchmarks';
-    }
+    // Page-specific Keywords from Catalog
+    const keywords = pageMeta.keywords || 'evidence-based health reviews, dietary supplement evaluations, clinical trials, health science, nutrition';
     setMetaTag('meta[name="keywords"]', 'content', keywords);
     setMetaTag('meta[name="author"]', 'content', '77 Review Editorial & Clinical Research Board');
 
