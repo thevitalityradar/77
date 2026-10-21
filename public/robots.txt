@@ -39,7 +39,8 @@ Allow: /products/
 Allow: /logo*.png
 Allow: /logo.svg
 
-# Sitemaps and Feeds (XML, TXT, RSS, ATOM)
+# Sitemaps and Feeds (Index, XML, TXT, RSS, ATOM)
+Sitemap: https://77-review.vercel.app/sitemap_index.xml
 Sitemap: https://77-review.vercel.app/sitemap.xml
 Sitemap: https://77-review.vercel.app/sitemap.txt
 Sitemap: https://77-review.vercel.app/urllist.txt
