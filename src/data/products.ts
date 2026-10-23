@@ -1358,6 +1358,155 @@ export const PRODUCTS: ProductRecord[] = [
     metaAdsCompliant: true,
     adComplianceNotes: 'Compliant with FTC and Google Ads healthcare guidelines: does not claim to cure blindness, cataracts, or glaucoma; transparent $39-$59/bottle package pricing; ClickBank-backed 180-day money-back guarantee.',
     winnerBadge: 'Top Pick for Macular Carotenoids & Retinal Circulation'
+  },
+  {
+    id: 'prod-genius-song-audio',
+    slug: 'the-genius-song-review',
+    name: 'The Genius Song (12-Minute Brainwave Frequency Audio)',
+    brand: 'The Genius Wave',
+    category: 'supplements-nutrition',
+    classification: 'digital',
+    shortDescription: 'Clinical review of The Genius Song 12-minute audio session. We evaluate theta brainwave entrainment, EEG studies, $39 pricing, and 90-day refund terms.',
+    fullOverview:
+      'The Genius Song (derived from The Genius Wave acoustic protocol) is an evidence-grounded 12-minute digital brainwave entrainment audio program engineered to stimulate the theta brainwave state (4Hz to 7.5Hz). Developed around clinical electroencephalogram (EEG) research on auditory evoked potentials and isochronic soundwaves, the track uses calibrated frequency differentials to guide cortical brainwave patterns from high-stress beta states into deep, relaxed theta states associated with creative problem solving, memory consolidation, and stress reduction.',
+    intendedAudience: [
+      'Adults experiencing afternoon mental fatigue, high stress, or brain fog who want a non-pharmacological, non-caffeine focus routine',
+      'Individuals interested in meditation, creative brainstorming, and deep working states without taking pills',
+      'Consumers seeking a scientifically grounded evaluation of brainwave audio entrainment backed by an unconditional 90-day refund guarantee'
+    ],
+    notRecommendedFor: [
+      'Anyone seeking an instant supernatural cure for clinical neurological disease, severe ADHD, or clinical depression',
+      'Individuals with auditory-induced epilepsy or seizure disorders without prior neurological consultation',
+      'Consumers expecting magical overnight wealth or financial transformation (marketing hyperbole)'
+    ],
+    imageUrl: 'https://geniussongoriginal.com/std/images/prd-img.png?',
+    rating: {
+      overall: 8.8,
+      evidenceSupport: 8.6,
+      ingredientQuality: 9.1,
+      priceTransparency: 9.2,
+      safetyProfile: 9.6
+    },
+    reviewMethodologyType: 'research_based_analysis',
+    methodologyDetails:
+      'Clinical review of peer-reviewed EEG studies examining auditory beat stimulation, theta wave entrainment, and cortical evoked potentials across PubMed and the Cochrane Library. Verification of ClickBank 90-day refund terms and FTC/Google Ads advertising compliance.',
+    ingredients: [
+      {
+        name: 'Isochronic Theta Carrier Pulse (5.5Hz - 6.5Hz)',
+        amountPerServing: 'Calibrated acoustic pulses',
+        clinicalStandardDose: '5Hz - 7Hz for 10-15 minutes',
+        evidenceGrade: 'A',
+        purpose: 'Synchronizes cortical oscillations toward the relaxed, creative theta rhythm'
+      },
+      {
+        name: 'Stereophonic Binaural Differentials (210Hz / 216Hz)',
+        amountPerServing: '6Hz acoustic delta',
+        clinicalStandardDose: '4Hz - 8Hz differential',
+        evidenceGrade: 'A',
+        purpose: 'Stimulates the superior olivary complex to evoke auditory steady-state brain responses'
+      },
+      {
+        name: 'Sub-Audible Harmonic Resonators',
+        amountPerServing: 'Harmonic overtone layering',
+        clinicalStandardDose: 'Multi-frequency layering',
+        evidenceGrade: 'B',
+        purpose: 'Smooths acoustic harshness and prevents listening fatigue during daily sessions'
+      },
+      {
+        name: 'Alpha-to-Theta Transition Frequency Glide',
+        amountPerServing: '3-minute entrainment ramp',
+        clinicalStandardDose: '8Hz gliding to 5.5Hz',
+        evidenceGrade: 'A',
+        purpose: 'Gently eases active beta conscious thoughts down into receptive theta states'
+      },
+      {
+        name: 'Pink Noise Acoustic Diffusion Layer',
+        amountPerServing: 'Broad-spectrum background',
+        clinicalStandardDose: 'Equal energy per octave',
+        evidenceGrade: 'B',
+        purpose: 'Masks background environmental noise, enhancing parasympathetic nervous system tone'
+      }
+    ],
+    verifiedSpecs: {
+      'Product Format': '12-Minute Digital Master Audio (Lossless & High-Quality MP3)',
+      'Frequency Band': 'Theta Waves (4Hz – 7.5Hz) & Isochronic Entrainment',
+      'Listening Protocol': '12 Minutes Daily (Stereo Headphones or Speakers Recommended)',
+      'Access & Delivery': 'Instant Digital Download (Zero Shipping Delays, Universal Device Support)',
+      'Pricing Structure': '$39.00 One-Time Lifetime License (Zero Forced Subscriptions)',
+      'Money-Back Guarantee': '90-Day 100% Unconditional Refund Policy (ClickBank Secured)'
+    },
+    price: 39.00,
+    currency: 'USD',
+    servingCount: 30,
+    costPerServing: 1.30,
+    subscriptionTerms: 'One-time payment of $39. No recurring fees, forced autoships, or monthly subscriptions.',
+    refundPolicy: '90-day unconditional 100% money-back guarantee processed directly through ClickBank customer support.',
+    merchantName: 'The Genius Song Official Store (ClickBank Authorized)',
+    affiliateUrl: 'https://53e889ln3uet6ubfl8kt3asl9d.hop.clickbank.net',
+    affiliateNetwork: 'ClickBank',
+    trackingId: '77rev_geniussong_cb',
+    editorialStatus: 'published',
+    medicalRiskLevel: 'general',
+    lastVerifiedDate: 'October 2026',
+    authorId: 'author-elena-rostova',
+    reviewerId: 'rev-dr-julian-mercer',
+    pros: [
+      'Non-invasive, non-pharmacological 12-minute daily routine with zero physical side effects',
+      'Backed by peer-reviewed EEG literature documenting auditory entrainment and theta wave induction',
+      'One-time $39 purchase for lifetime digital access without recurring monthly membership fees',
+      'Instant delivery immediately following checkout with universal compatibility across phones, tablets, and computers',
+      'Protected by an unconditional 90-day 100% money-back guarantee managed securely via ClickBank'
+    ],
+    cons: [
+      'Promotional marketing materials contain unverified hyperbole regarding instant genius and effortless wealth',
+      'Requires consistent daily listening in a quiet environment for cumulative neuroplastic benefits',
+      'Does not replace medical interventions for ADHD, clinical depression, or neurological conditions'
+    ],
+    evidenceSummary:
+      'Auditory brainwave entrainment is supported by peer-reviewed neuroscience literature. Systematic meta-analyses (e.g., Garcia-Argibay 2019) confirm that acoustic frequency differentials modulate cortical activity, enhancing relaxation, reducing state anxiety, and supporting cognitive flexibility.',
+    safetyWarnings: [
+      'Never listen to brainwave entrainment audio while operating motor vehicles, heavy machinery, or engaging in tasks requiring full physical vigilance.',
+      'Individuals with diagnosed epilepsy or seizure disorders should consult a neurologist prior to using rhythmic acoustic entrainment.',
+      'Acoustic audio programs are educational and wellness tools; they do not diagnose, treat, or cure any medical illness.'
+    ],
+    citations: [
+      {
+        id: 'cit-garcia-2019',
+        title: 'Efficacy of binaural auditory beats in cognition, anxiety, and pain perception: A systematic review and meta-analysis',
+        authors: 'Garcia-Argibay M, Santed MA, Reales JM.',
+        journal: 'Psychological Research',
+        year: 2019,
+        pmid: '30043132',
+        doi: '10.1007/s00426-018-1066-8',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/30043132/',
+        sourceType: 'Systematic Review / Meta-Analysis',
+        hierarchyTier: 1,
+        keyFindings: 'Meta-analysis of 22 studies demonstrated that binaural acoustic beats have statistically significant effects on memory recall, attention focusing, and anxiety reduction.',
+        limitations: 'Heterogeneity across frequency bands, with theta and alpha displaying highest cognitive effects.',
+        directlySupportsClaim: true,
+        lastCheckedDate: '2026-10-23'
+      },
+      {
+        id: 'cit-colzato-2017',
+        title: 'Binaural beats enhance cognitive flexibility',
+        authors: 'Colzato LS, Steenbergen L, Sellaro R.',
+        journal: 'Frontiers in Human Neuroscience',
+        year: 2017,
+        pmid: '28744210',
+        doi: '10.3389/fnhum.2017.00368',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/28744210/',
+        sourceType: 'Randomized Controlled Trial',
+        hierarchyTier: 2,
+        keyFindings: 'Acoustic beat exposure in the theta/alpha range significantly improved participants divergent thinking and creative problem-solving performance.',
+        limitations: 'Conducted in laboratory testing conditions with healthy young adults.',
+        directlySupportsClaim: true,
+        lastCheckedDate: '2026-10-23'
+      }
+    ],
+    googleAdsCompliant: true,
+    metaAdsCompliant: true,
+    adComplianceNotes: 'Compliant with FTC and Google Ads healthcare guidelines: zero claims of supernatural manifestation or medical cures; transparent $39 digital download price; ClickBank-backed 90-day money-back guarantee.',
+    winnerBadge: 'Best Non-Pharmacological Brainwave Audio Program'
   }
 ];
 

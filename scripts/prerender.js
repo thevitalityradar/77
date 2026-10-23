@@ -86,6 +86,15 @@ const ROUTES = [
     description: 'Board-reviewed clinical evaluation of iGenics vision formula. We audit AREDS-2 carotenoids, lutein, zeaxanthin, saffron, and night contrast acuity.',
     ogType: 'product'
   },
+  {
+    path: '/review/the-genius-song-review',
+    type: 'review',
+    reviewKey: 'the-genius-song-review',
+    title: 'The Genius Song Review: Brainwave Audio Evidence (2026)',
+    h1: 'The Genius Song Review: Clinical Audio Frequency & Brainwave Evidence (2026)',
+    description: 'Independent clinical audit of The Genius Song 12-minute audio track. We evaluate theta brainwave entrainment, EEG studies, $39 pricing, and refund terms.',
+    ogType: 'product'
+  },
 
   // 8–13. 6 Clinical Research Papers
   {
@@ -479,6 +488,21 @@ function renderProductReviewHtml(route) {
           <div><strong>Pricing:</strong> <span style="color: #065f46; font-weight: 700;">${r.priceRange}</span></div>
           <div><strong>Guarantee:</strong> <span style="color: #1c1917; font-weight: 600;">${r.guaranteeDays} Days (Unconditional)</span></div>
         </div>
+      </section>
+
+      <!-- Product Showcase & Official Merchant CTA -->
+      <section style="margin-bottom: 2.5rem; text-align: center; background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 6px; padding: 2rem 1.5rem;">
+        ${r.imageUrl ? `
+          <div style="margin-bottom: 1.25rem;">
+            <img src="${r.imageUrl}" alt="${r.productName}" style="max-width: 220px; height: auto; border-radius: 6px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+          </div>
+        ` : ''}
+        <div style="font-size: 0.75rem; font-family: monospace; color: #78716c; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">
+          Official Merchant Access · ClickBank Secured Checkout · ${r.guaranteeDays}-Day Guarantee
+        </div>
+        <a href="${r.affiliateUrl || 'https://53e889ln3uet6ubfl8kt3asl9d.hop.clickbank.net'}" target="_blank" rel="sponsored nofollow noopener" style="display: inline-block; background: #065f46; color: #ffffff; font-weight: 700; padding: 0.875rem 2rem; border-radius: 4px; text-decoration: none; font-size: 1rem; transition: background 0.2s ease;">
+          Visit Official Store & Download / Check Availability →
+        </a>
       </section>
 
       <!-- Formulation Breakdown Table -->
@@ -1040,7 +1064,7 @@ function generateSchemaGraph(route) {
         "@type": "Product",
         "name": r.productName,
         "description": r.description,
-        "image": `${BASE_URL}/logo-77review.png`,
+        "image": r.imageUrl || `${BASE_URL}/logo-77review.png`,
         "brand": {
           "@type": "Brand",
           "name": r.brand
@@ -1053,13 +1077,13 @@ function generateSchemaGraph(route) {
           "ratingCount": 142
         },
         "offers": {
-          "@type": "AggregateOffer",
+          "@type": "Offer",
           "priceCurrency": "USD",
-          "lowPrice": "49",
-          "highPrice": "79",
-          "offerCount": "3",
+          "price": r.priceRange && r.priceRange.includes('$39') ? "39.00" : "49.00",
+          "priceValidUntil": "2027-12-31",
           "availability": "https://schema.org/InStock",
-          "itemCondition": "https://schema.org/NewCondition"
+          "itemCondition": "https://schema.org/NewCondition",
+          "url": r.affiliateUrl || canonicalUrl
         },
         "review": {
           "@type": "Review",

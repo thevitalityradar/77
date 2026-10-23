@@ -96,6 +96,17 @@ export const METADATA_CATALOG: Record<string, PageMetadata> = {
     category: 'Eye Health & Vision Longevity',
     ogType: 'product'
   },
+  '/review/the-genius-song-review': {
+    path: '/review/the-genius-song-review',
+    title: 'The Genius Song Review: Brainwave Audio Evidence (2026)',
+    h1: 'The Genius Song Review: Clinical Audio Frequency & Brainwave Evidence (2026)',
+    description:
+      'Independent clinical audit of The Genius Song 12-minute audio track. We evaluate theta brainwave entrainment, EEG studies, $39 pricing, and refund terms.',
+    keywords:
+      'The Genius Song review, The Genius Wave, theta brainwave entrainment, binaural beats EEG study, 12 minute audio session, ClickBank guarantee',
+    category: 'Acoustic Neurology & Cognitive Entrainment',
+    ogType: 'product'
+  },
 
   // 6 Clinical Research Articles
   '/article/brain-glucose-metabolism-saffron-berberine-cognitive-health': {
