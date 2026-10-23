@@ -107,6 +107,17 @@ export const METADATA_CATALOG: Record<string, PageMetadata> = {
     category: 'Acoustic Neurology & Cognitive Entrainment',
     ogType: 'product'
   },
+  '/review/visiflora-gut-eye-axis-vision-support-review': {
+    path: '/review/visiflora-gut-eye-axis-vision-support-review',
+    title: 'VisiFlora Review: Gut-Eye Axis & Vision Support (2026)',
+    h1: 'VisiFlora Review: Clinical Gut-Eye Axis & Vision Support Evidence (2026)',
+    description:
+      'Independent clinical audit of VisiFlora 22-in-1 eye supplement. We evaluate AREDS-2 carotenoids, Astaxanthin, the gut-retina axis, $49 pricing, and ClickBank guarantee.',
+    keywords:
+      'VisiFlora review, VisiFlora ingredients, gut-eye axis supplement, lutein zeaxanthin astaxanthin, eye fatigue formula, ClickBank vision review',
+    category: 'Eye Health & Vision Longevity',
+    ogType: 'product'
+  },
 
   // 6 Clinical Research Articles
   '/article/brain-glucose-metabolism-saffron-berberine-cognitive-health': {

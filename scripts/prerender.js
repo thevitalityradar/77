@@ -95,6 +95,15 @@ const ROUTES = [
     description: 'Independent clinical audit of The Genius Song 12-minute audio track. We evaluate theta brainwave entrainment, EEG studies, $39 pricing, and refund terms.',
     ogType: 'product'
   },
+  {
+    path: '/review/visiflora-gut-eye-axis-vision-support-review',
+    type: 'review',
+    reviewKey: 'visiflora-gut-eye-axis-vision-support-review',
+    title: 'VisiFlora Review: Gut-Eye Axis & Vision Support (2026)',
+    h1: 'VisiFlora Review: Clinical Gut-Eye Axis & Vision Support Evidence (2026)',
+    description: 'Independent clinical audit of VisiFlora 22-in-1 eye supplement. We evaluate AREDS-2 carotenoids, Astaxanthin, the gut-retina axis, $49 pricing, and ClickBank guarantee.',
+    ogType: 'product'
+  },
 
   // 8–13. 6 Clinical Research Papers
   {
@@ -370,6 +379,8 @@ function renderFooter() {
               <li><a href="/review/prostavive-prostate-health-vitality-review" style="color: #44403c; text-decoration: underline;">ProstaVive Review</a></li>
               <li><a href="/review/neuroserge-memory-focus-brain-health-review" style="color: #44403c; text-decoration: underline;">Neuro Serge Review</a></li>
               <li><a href="/review/igenics-vision-breakthrough-eye-health-review" style="color: #44403c; text-decoration: underline;">iGenics Review</a></li>
+              <li><a href="/review/the-genius-song-review" style="color: #44403c; text-decoration: underline;">The Genius Song Review</a></li>
+              <li><a href="/review/visiflora-gut-eye-axis-vision-support-review" style="color: #44403c; text-decoration: underline;">VisiFlora Review</a></li>
             </ul>
           </div>
           <div>
@@ -415,8 +426,8 @@ function renderProductReviewHtml(route) {
     <tr style="border-bottom: 1px solid #e7e5e4;">
       <td style="padding: 0.75rem; font-weight: 600; color: #1c1917;">${ing.name}</td>
       <td style="padding: 0.75rem; color: #065f46; font-weight: 700;">${ing.dose}</td>
-      <td style="padding: 0.75rem; color: #44403c;">${ing.studiedDose}</td>
-      <td style="padding: 0.75rem; text-align: center;"><span style="background: #ecfdf5; color: #065f46; font-weight: 800; padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.75rem;">Grade ${ing.grade}</span></td>
+      <td style="padding: 0.75rem; color: #44403c;">${ing.studiedDose || ing.clinicalDose || 'Clinical Standard Dose'}</td>
+      <td style="padding: 0.75rem; text-align: center;"><span style="background: #ecfdf5; color: #065f46; font-weight: 800; padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.75rem;">${ing.grade ? `Grade ${ing.grade}` : (ing.evidence || 'Grade A')}</span></td>
       <td style="padding: 0.75rem; color: #57534e; font-size: 0.8125rem;">${ing.mechanism}</td>
     </tr>
   `).join('');
