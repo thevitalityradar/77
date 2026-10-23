@@ -118,6 +118,17 @@ export const METADATA_CATALOG: Record<string, PageMetadata> = {
     category: 'Eye Health & Vision Longevity',
     ogType: 'product'
   },
+  '/review/nitric-boost-ultra-blood-flow-stamina-review': {
+    path: '/review/nitric-boost-ultra-blood-flow-stamina-review',
+    title: 'Nitric Boost Ultra Review: Nitric Oxide & Stamina (2026)',
+    h1: 'Nitric Boost Ultra Review: Clinical Nitric Oxide & Blood Flow Evidence (2026)',
+    description:
+      'Clinical evaluation of Nitric Boost Ultra drink mix. We audit Beet Root nitrates, L-Citrulline, Epimedium icariin, blood pressure data, and refund terms.',
+    keywords:
+      'Nitric Boost review, Nitric Boost Ultra, beet root nitrates, l-citrulline blood flow, epimedium icariin, nitric oxide drink, ClickBank guarantee',
+    category: "Men's Health & Longevity",
+    ogType: 'product'
+  },
 
   // 6 Clinical Research Articles
   '/article/brain-glucose-metabolism-saffron-berberine-cognitive-health': {

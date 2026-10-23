@@ -104,6 +104,15 @@ const ROUTES = [
     description: 'Independent clinical audit of VisiFlora 22-in-1 eye supplement. We evaluate AREDS-2 carotenoids, Astaxanthin, the gut-retina axis, $49 pricing, and ClickBank guarantee.',
     ogType: 'product'
   },
+  {
+    path: '/review/nitric-boost-ultra-blood-flow-stamina-review',
+    type: 'review',
+    reviewKey: 'nitric-boost-ultra-blood-flow-stamina-review',
+    title: 'Nitric Boost Ultra Review: Nitric Oxide & Stamina (2026)',
+    h1: 'Nitric Boost Ultra Review: Clinical Nitric Oxide & Blood Flow Evidence (2026)',
+    description: 'Clinical evaluation of Nitric Boost Ultra drink mix. We audit Beet Root nitrates, L-Citrulline, Epimedium icariin, blood pressure data, and refund terms.',
+    ogType: 'product'
+  },
 
   // 8–13. 6 Clinical Research Papers
   {
@@ -381,6 +390,7 @@ function renderFooter() {
               <li><a href="/review/igenics-vision-breakthrough-eye-health-review" style="color: #44403c; text-decoration: underline;">iGenics Review</a></li>
               <li><a href="/review/the-genius-song-review" style="color: #44403c; text-decoration: underline;">The Genius Song Review</a></li>
               <li><a href="/review/visiflora-gut-eye-axis-vision-support-review" style="color: #44403c; text-decoration: underline;">VisiFlora Review</a></li>
+              <li><a href="/review/nitric-boost-ultra-blood-flow-stamina-review" style="color: #44403c; text-decoration: underline;">Nitric Boost Ultra Review</a></li>
             </ul>
           </div>
           <div>

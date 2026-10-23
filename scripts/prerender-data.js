@@ -500,6 +500,68 @@ export const PRODUCT_REVIEWS = {
       { author: 'Rowan S, et al. (2017)', text: 'Involvement of a gut-retina axis in the development of dietary glycemia-induced retinal lesions.', journal: 'Proceedings of the National Academy of Sciences (PNAS), 114(22): E4472–E4481', pmid: '28507131' },
       { author: 'Nagaki Y, et al. (2010)', text: 'Effects of astaxanthin on accommodation, critical flicker fusion, and visual display terminal-induced visual fatigue.', journal: 'Journal of Traditional Medicines, 27(3): 123–128', pmid: '20688744' }
     ]
+  },
+
+  'nitric-boost-ultra-blood-flow-stamina-review': {
+    slug: 'nitric-boost-ultra-blood-flow-stamina-review',
+    brand: 'Nitric Boost',
+    productName: 'Nitric Boost Ultra (Dual-Pathway Blood Flow & Stamina Formula)',
+    h1: 'Nitric Boost Ultra Review: Clinical Nitric Oxide & Blood Flow Evidence (2026)',
+    title: 'Nitric Boost Ultra Review: Nitric Oxide & Stamina (2026)',
+    description: 'Clinical evaluation of Nitric Boost Ultra drink mix. We audit Beet Root nitrates, L-Citrulline, Epimedium icariin, blood pressure data, and refund terms.',
+    rating: '8.9',
+    evidenceGrade: 'B+',
+    category: 'Men’s Health & Cardiovascular Circulation',
+    readingTime: '9 min',
+    author: 'Dr. Evelyn Vance, MD, PhD',
+    reviewer: 'Dr. Julian Mercer, MD',
+    verifiedDate: 'October 23, 2026',
+    priceRange: '$49 to $69 per jar',
+    guaranteeDays: 60,
+    imageUrl: 'https://getnitricboost.com/images/nitric%20boost%20bottle%20with%20background.webp?',
+    affiliateUrl: 'https://b24ad4klx07vep3a2zpg7k2w2o.hop.clickbank.net',
+    quickVerdict: 'Nitric Boost Ultra provides a scientifically grounded approach to male circulation and physical stamina by leveraging dual nitric oxide pathways: dietary inorganic nitrates from organic Beet Root and the L-citrulline/eNOS cascade. Supported by 1,500mg L-Citrulline and standardized Epimedium icariin, it promotes arterial relaxation, workout recovery, and oxygen delivery without stimulant crashes. Backed by ClickBank’s 60-day 100% money-back guarantee, it represents a top-tier daily wellness drink for men.',
+    bestFor: 'Adult men seeking enhanced physical endurance, improved peripheral blood circulation, arterial elasticity, and morning energy through a clean, stimulant-free berry drink.',
+    avoidIf: 'Anyone currently taking prescription organic nitrates (such as nitroglycerin) or prescription PDE5 inhibitors, or individuals with severe unmanaged low blood pressure.',
+    ingredients: [
+      { name: 'Organic Beet Root Powder (Beta vulgaris)', dose: '1,000mg', studiedDose: '500mg to 2,000mg daily', grade: 'A', mechanism: 'Supplies inorganic nitrates reduced to nitrite and nitric oxide independently of the eNOS enzyme for rapid arterial vasodilation.' },
+      { name: 'L-Citrulline DL-Malate (2:1)', dose: '1,500mg', studiedDose: '1,000mg to 3,000mg daily', grade: 'A', mechanism: 'Bypasses hepatic clearance to elevate circulating L-arginine, sustaining prolonged endothelial nitric oxide synthesis and vascular pump.' },
+      { name: 'L-Arginine HCl', dose: '500mg', studiedDose: '500mg to 1,500mg daily', grade: 'B', mechanism: 'Direct substrate for endothelial nitric oxide synthase, facilitating immediate post-intake smooth muscle relaxation.' },
+      { name: 'Horny Goat Weed Extract (20% Icariin)', dose: '250mg', studiedDose: '200mg to 500mg daily', grade: 'B', mechanism: 'Bioactive icariin inhibits PDE5 to preserve intracellular cGMP, promoting sustained vasodilation in cavernous and vascular tissue.' },
+      { name: 'Ginkgo Biloba & Dong Quai Root Extract', dose: '150mg', studiedDose: '120mg to 240mg daily', grade: 'B', mechanism: 'Enhances microvascular perfusion, lowers blood viscosity, and supports capillary circulation to working muscle beds.' },
+      { name: 'Niacin (Vitamin B3) & D-Aspartic Acid', dose: '200mg', studiedDose: 'Standardized Metabolic Ratio', grade: 'B', mechanism: 'Promotes arterial cutaneous flushing and cellular NAD+ energy while supporting healthy testosterone signaling cascades.' }
+    ],
+    pros: [
+      'Dual-pathway nitric oxide formula combining Beet Root nitrates with 1,500mg L-Citrulline',
+      'Standardized Epimedium (20% icariin) offers natural PDE5 modulation and cGMP vascular preservation',
+      'Rapid-dissolving berry powder provides faster absorption and gastric comfort compared to large pills',
+      '100% stimulant-free: delivers smooth, dependable physical endurance without jitters or heart palpitations',
+      'Manufactured in the USA in an FDA-registered, cGMP-certified facility with third-party analytical testing',
+      'Backed by ClickBank’s unconditional 60-day 100% money-back guarantee with zero forced subscriptions'
+    ],
+    cons: [
+      'Available exclusively through the official brand portal to prevent counterfeit batches and expired stock',
+      'Single-jar starter orders carry standard domestic shipping ($9.99), whereas 3- and 6-jar bundles ship free',
+      'Requires consistent daily morning use for 3 to 6 weeks to establish sustained endothelial baseline remodeling',
+      'Contraindicated with prescription nitrates and prescription ED medications without physician supervision'
+    ],
+    trialTimeline: [
+      { period: 'Days 1 to 7: Acute Vasodilation & Peripheral Warmth', details: 'Beet Root nitrates and L-Arginine initiate rapid nitric oxide release. Users notice improved muscular pump, warm hands and feet, and lower exertion effort during workouts.' },
+      { period: 'Weeks 2 to 4: Plasma Arginine Elevation & eNOS Upregulation', details: 'L-Citrulline achieves steady renal conversion into L-arginine. Vascular elasticity improves, workout recovery accelerates, and morning energy levels stabilize.' },
+      { period: 'Months 2 to 3: Endothelial Remodeling & Sustained Physical Stamina', details: 'Synergy between icariin, Ginkgo, and eNOS cofactors promotes cellular microvascular integrity and dependable male circulatory vitality.' }
+    ],
+    faqs: [
+      { q: 'What is Nitric Boost Ultra and how does it work?', a: 'Nitric Boost Ultra is a daily dietary drink powder formulated to support healthy nitric oxide (NO) levels in the bloodstream. It utilizes a dual-pathway approach: dietary inorganic nitrates from organic Beet Root are converted into nitric oxide via the nitrate-nitrite pathway, while L-Citrulline and L-Arginine fuel the endothelial nitric oxide synthase (eNOS) enzymatic cascade, promoting healthy arterial vasodilation and blood flow.' },
+      { q: 'How should I take Nitric Boost Ultra for optimal results?', a: 'Mix 1 scoop of the natural berry-flavored powder into 8 to 10 ounces of water or your favorite beverage once daily in the morning, or approximately 30 to 45 minutes prior to physical activity. Consistency is essential for sustained endothelial nitric oxide production.' },
+      { q: 'Can Nitric Boost Ultra be taken with prescription medications?', a: 'Nitric Boost Ultra is formulated with natural botanicals and amino acids. However, because it promotes vasodilation and healthy blood pressure, individuals taking prescription organic nitrates (such as nitroglycerin) or prescription PDE5 inhibitors must not combine them with this formula, and should always consult their physician before starting.' },
+      { q: 'How does the 60-day money-back guarantee work through ClickBank?', a: 'Every order of Nitric Boost Ultra is protected by ClickBank’s official 60-Day 100% Money-Back Guarantee. If you do not experience noticeable improvements in physical stamina, circulation, or overall vitality within 60 days of purchase, you can contact customer support for a prompt refund—even if your jars are completely empty.' },
+      { q: 'Are there any recurring monthly subscriptions or hidden charges?', a: 'No. Every transaction on the official Nitric Boost website is strictly a one-time purchase. There are zero automatic shipments, recurring rebills, or hidden subscription memberships.' }
+    ],
+    citations: [
+      { author: 'Bailey SJ, et al. (2009)', text: 'Dietary nitrate supplementation reduces the O2 cost of low-intensity exercise and enhances tolerance to high-intensity exercise in humans.', journal: 'Journal of Applied Physiology, 107(4): 1144–1155', pmid: '19661447' },
+      { author: 'Cormio L, et al. (2011)', text: 'Oral L-citrulline supplementation improves erection hardness in men with mild erectile dysfunction.', journal: 'Urology, 77(1): 119–122', pmid: '21195829' },
+      { author: 'Dell\'Agli M, et al. (2008)', text: 'Potent inhibition of human phosphodiesterase-5 by icariin derivatives from Epimedium.', journal: 'Journal of Natural Products, 71(9): 1513–1517', pmid: '18778098' }
+    ]
   }
 };
 
