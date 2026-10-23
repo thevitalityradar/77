@@ -72,11 +72,13 @@
     {
       "source": "/(.*)",
       "headers": [
+        { "key": "Content-Language", "value": "en-US" },
         { "key": "X-Content-Type-Options", "value": "nosniff" },
         { "key": "X-Robots-Tag", "value": "all" }
       ]
     }
   ],
+  "cleanUrls": true,
   "rewrites": [
     {
       "source": "/((?!.*\\.(?:xml|txt|ico|png|svg|webp|jpg|jpeg|json|webmanifest|js|css|woff2?)$).*)",

@@ -1142,6 +1142,9 @@ function generateStaticPage(template, route) {
   const canonicalUrl = `${BASE_URL}${route.path === '/' ? '/' : route.path}`;
   let html = template;
 
+  // 0. Ensure US English language attribute
+  html = html.replace(/<html(?:\s+[^>]*)?lang="[^"]*"/i, '<html lang="en-US"');
+
   // 1. Update <title>
   html = html.replace(/<title>.*?<\/title>/s, `<title>${route.title}</title>`);
 
