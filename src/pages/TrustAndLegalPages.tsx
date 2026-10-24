@@ -176,10 +176,14 @@ export const TrustAndLegalPages: React.FC<TrustAndLegalPagesProps> = ({
                     <img
                       src={reviewer.avatarUrl}
                       alt={reviewer.name}
+                      width={48}
+                      height={48}
+                      loading="lazy"
+                      decoding="async"
                       className="w-12 h-12 rounded-full object-cover border border-stone-300"
                     />
                     <div>
-                      <h4 className="font-semibold text-stone-900 text-sm">{reviewer.name}</h4>
+                      <h3 className="font-semibold text-stone-900 text-sm">{reviewer.name}</h3>
                       <span className="text-xs text-emerald-800 font-medium block">{reviewer.role}</span>
                       <span className="text-[11px] text-stone-500">{reviewer.institution}</span>
                     </div>

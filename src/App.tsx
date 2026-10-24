@@ -2,16 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { HomePage } from './pages/HomePage';
-import { CategoryPage } from './pages/CategoryPage';
-import { ArticleDetailPage } from './pages/ArticleDetailPage';
-import { ProductReviewPage } from './pages/ProductReviewPage';
-import { ComparisonToolPage } from './pages/ComparisonToolPage';
-import { IngredientsDirectoryPage } from './pages/IngredientsDirectoryPage';
-import { TrustAndLegalPages } from './pages/TrustAndLegalPages';
-import { EditorialGovernanceModal } from './components/EditorialGovernanceModal';
-import { AdComplianceInspectorModal } from './components/AdComplianceInspectorModal';
-import { SearchModal } from './components/SearchModal';
 import { SEOHead } from './components/SEOHead';
+
+// Code-split subpages and modals to minimize initial bundle size and eliminate unused JavaScript
+const CategoryPage = React.lazy(() => import('./pages/CategoryPage').then(m => ({ default: m.CategoryPage })));
+const ArticleDetailPage = React.lazy(() => import('./pages/ArticleDetailPage').then(m => ({ default: m.ArticleDetailPage })));
+const ProductReviewPage = React.lazy(() => import('./pages/ProductReviewPage').then(m => ({ default: m.ProductReviewPage })));
+const ComparisonToolPage = React.lazy(() => import('./pages/ComparisonToolPage').then(m => ({ default: m.ComparisonToolPage })));
+const IngredientsDirectoryPage = React.lazy(() => import('./pages/IngredientsDirectoryPage').then(m => ({ default: m.IngredientsDirectoryPage })));
+const TrustAndLegalPages = React.lazy(() => import('./pages/TrustAndLegalPages').then(m => ({ default: m.TrustAndLegalPages })));
+const EditorialGovernanceModal = React.lazy(() => import('./components/EditorialGovernanceModal').then(m => ({ default: m.EditorialGovernanceModal })));
+const AdComplianceInspectorModal = React.lazy(() => import('./components/AdComplianceInspectorModal').then(m => ({ default: m.AdComplianceInspectorModal })));
+const SearchModal = React.lazy(() => import('./components/SearchModal').then(m => ({ default: m.SearchModal })));
 import { ARTICLES, getArticleBySlug } from './data/articles';
 import { PRODUCTS, getProductBySlug } from './data/products';
 import { ProductCategory, ProductRecord, ArticleRecord } from './types';
@@ -190,34 +192,46 @@ export default function App() {
 
       {/* Main Editorial Body */}
       <main className="flex-1">
-        {renderCurrentPage()}
+        <React.Suspense fallback={<div className="min-h-[50vh] flex items-center justify-center text-xs font-mono text-stone-400">Loading Clinical Research...</div>}>
+          {renderCurrentPage()}
+        </React.Suspense>
       </main>
 
       {/* Institutional Governance Footer */}
       <Footer onNavigate={navigate} />
 
       {/* Editorial Governance Modal */}
-      <EditorialGovernanceModal
-        isOpen={isGovernanceOpen}
-        onClose={() => setIsGovernanceOpen(false)}
-        item={currentActiveItem}
-      />
+      {isGovernanceOpen && (
+        <React.Suspense fallback={null}>
+          <EditorialGovernanceModal
+            isOpen={isGovernanceOpen}
+            onClose={() => setIsGovernanceOpen(false)}
+            item={currentActiveItem}
+          />
+        </React.Suspense>
+      )}
 
       {/* Google Ads & Meta Ads Compliance Modal */}
       {complianceProduct && (
-        <AdComplianceInspectorModal
-          isOpen={!!complianceProduct}
-          onClose={() => setComplianceProduct(null)}
-          product={complianceProduct}
-        />
+        <React.Suspense fallback={null}>
+          <AdComplianceInspectorModal
+            isOpen={!!complianceProduct}
+            onClose={() => setComplianceProduct(null)}
+            product={complianceProduct}
+          />
+        </React.Suspense>
       )}
 
       {/* Search Modal */}
-      <SearchModal
-        isOpen={isSearchOpen}
-        onClose={() => setIsSearchOpen(false)}
-        onNavigate={navigate}
-      />
+      {isSearchOpen && (
+        <React.Suspense fallback={null}>
+          <SearchModal
+            isOpen={isSearchOpen}
+            onClose={() => setIsSearchOpen(false)}
+            onNavigate={navigate}
+          />
+        </React.Suspense>
+      )}
     </div>
   );
 }

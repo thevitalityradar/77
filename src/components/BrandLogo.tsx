@@ -21,9 +21,13 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
     lg: 'h-12'
   };
 
-  const imageSrc = variant === 'dark' 
-    ? '/logo-77review-trimmed.png' 
-    : '/logo-77review-trimmed.png';
+  const dimensions = {
+    sm: { width: 114, height: 28 },
+    md: { width: 147, height: 36 },
+    lg: { width: 196, height: 48 }
+  };
+
+  const imageSrc = '/logo-77review-trimmed.webp';
 
   return (
     <div className={`inline-flex items-center gap-2.5 ${className}`}>
@@ -31,8 +35,20 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
         <img
           src={imageSrc}
           alt="77 Review Logo"
+          width={dimensions[size].width}
+          height={dimensions[size].height}
+          loading="eager"
+          decoding="async"
           className={`${heightClasses[size]} w-auto object-contain transition-transform duration-200 hover:scale-[1.02]`}
-          onError={() => setImageFailed(true)}
+          onError={(e) => {
+            const img = e.currentTarget;
+            if (!img.dataset.fallback) {
+              img.dataset.fallback = '1';
+              img.src = '/logo-77review-trimmed.png';
+            } else {
+              setImageFailed(true);
+            }
+          }}
         />
       ) : (
         /* Vector Fallback if image asset is unavailable */

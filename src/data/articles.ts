@@ -1,5 +1,4 @@
 import { ArticleRecord } from '../types';
-import heroEditorialHealth from '../assets/images/hero_editorial_health_1791735480668.jpg';
 
 export const ARTICLES: ArticleRecord[] = [
   {
@@ -12,7 +11,7 @@ export const ARTICLES: ArticleRecord[] = [
     readingTimeMinutes: 8,
     publishDate: 'October 11, 2026',
     lastUpdatedDate: 'October 11, 2026',
-    heroImageUrl: heroEditorialHealth,
+    heroImageUrl: '/images/hero_editorial_health_1791735480668.webp',
     authorId: 'author-elena-rostova',
     reviewerId: 'rev-dr-julian-mercer',
     editorialStatus: 'published',

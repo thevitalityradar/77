@@ -525,7 +525,7 @@ function renderProductReviewHtml(route) {
       <section style="margin-bottom: 2.5rem; text-align: center; background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 6px; padding: 2rem 1.5rem;">
         ${r.imageUrl ? `
           <div style="margin-bottom: 1.25rem;">
-            <img src="${r.imageUrl}" alt="${r.productName}" style="max-width: 220px; height: auto; border-radius: 6px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+            <img src="${r.imageUrl}" alt="${r.productName}" width="220" height="220" loading="lazy" decoding="async" style="max-width: 220px; height: auto; border-radius: 6px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
           </div>
         ` : ''}
         <div style="font-size: 0.75rem; font-family: monospace; color: #78716c; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">
@@ -783,6 +783,12 @@ function renderHomepageHtml(route) {
         <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
           <a href="/comparisons" style="background: #064e3b; color: #ffffff; padding: 0.75rem 1.5rem; border-radius: 4px; font-weight: 700; text-decoration: none; font-size: 0.875rem;">Explore Comparison Matrix</a>
           <a href="/ingredients" style="background: #ffffff; color: #1c1917; border: 1px solid #d6d3d1; padding: 0.75rem 1.5rem; border-radius: 4px; font-weight: 700; text-decoration: none; font-size: 0.875rem;">PubMed Ingredient Database</a>
+        </div>
+        <div style="margin: 2rem auto 0 auto; max-width: 800px; aspect-ratio: 16/9; overflow: hidden; border-radius: 6px; border: 1px solid #e7e5e4;">
+          <picture>
+            <source srcset="/images/hero_editorial_health_1791735480668.webp" type="image/webp" />
+            <img src="/images/hero_editorial_health_1791735480668.jpg" alt="Clinical investigation and laboratory evaluation desk at 77 Review" width="960" height="536" fetchpriority="high" loading="eager" decoding="async" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+          </picture>
         </div>
       </section>
 

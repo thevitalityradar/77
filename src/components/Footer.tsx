@@ -30,9 +30,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           {/* Editorial Sections */}
           {/* Column 1: Editorial Reviews (6 Products) */}
           <div>
-            <h4 className="text-xs uppercase tracking-widest font-mono text-emerald-400 mb-3 font-semibold">
+            <h3 className="text-xs uppercase tracking-widest font-mono text-emerald-400 mb-3 font-semibold">
               Clinical Reviews
-            </h4>
+            </h3>
             <ul className="space-y-2 text-xs">
               <li>
                 <a
@@ -111,9 +111,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
           {/* Column 2: Clinical Research Guides (6 Articles) */}
           <div>
-            <h4 className="text-xs uppercase tracking-widest font-mono text-emerald-400 mb-3 font-semibold">
+            <h3 className="text-xs uppercase tracking-widest font-mono text-emerald-400 mb-3 font-semibold">
               Research Guides
-            </h4>
+            </h3>
             <ul className="space-y-2 text-xs">
               <li>
                 <a
@@ -192,9 +192,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
           {/* Column 3: Category Hubs & Interactive Tools */}
           <div>
-            <h4 className="text-xs uppercase tracking-widest font-mono text-emerald-400 mb-3 font-semibold">
+            <h3 className="text-xs uppercase tracking-widest font-mono text-emerald-400 mb-3 font-semibold">
               Departments &amp; Tools
-            </h4>
+            </h3>
             <ul className="space-y-2 text-xs">
               <li>
                 <a
@@ -273,9 +273,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
           {/* Column 4: Institutional Governance & Trust */}
           <div>
-            <h4 className="text-xs uppercase tracking-widest font-mono text-emerald-400 mb-3 font-semibold">
+            <h3 className="text-xs uppercase tracking-widest font-mono text-emerald-400 mb-3 font-semibold">
               Trust &amp; Governance
-            </h4>
+            </h3>
             <ul className="space-y-2 text-xs">
               <li>
                 <a

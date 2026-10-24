@@ -76,8 +76,13 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="space-y-4">
               <div className="relative aspect-[16/9] overflow-hidden bg-stone-100 border border-stone-100">
                 <img
-                  src={leadArticle.heroImageUrl}
+                  src={leadArticle.heroImageUrl || '/images/hero_editorial_health_1791735480668.webp'}
                   alt={leadArticle.title}
+                  width={960}
+                  height={536}
+                  fetchPriority="high"
+                  loading="eager"
+                  decoding="async"
                   referrerPolicy="no-referrer"
                   onError={(e) => {
                     const img = e.currentTarget;
@@ -202,6 +207,10 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <img
                   src={featuredProduct.imageUrl}
                   alt={featuredProduct.name}
+                  width={400}
+                  height={250}
+                  loading="lazy"
+                  decoding="async"
                   referrerPolicy="no-referrer"
                   className="max-h-full w-auto object-contain"
                 />

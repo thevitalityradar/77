@@ -102,6 +102,10 @@ export const ArticleDetailPage: React.FC<ArticleDetailPageProps> = ({
               <img
                 src={author.avatarUrl}
                 alt={author.name}
+                width={40}
+                height={40}
+                loading="lazy"
+                decoding="async"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
               />
@@ -124,6 +128,10 @@ export const ArticleDetailPage: React.FC<ArticleDetailPageProps> = ({
                 <img
                   src={reviewer.avatarUrl}
                   alt={reviewer.name}
+                  width={40}
+                  height={40}
+                  loading="lazy"
+                  decoding="async"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
                 />
@@ -171,6 +179,11 @@ export const ArticleDetailPage: React.FC<ArticleDetailPageProps> = ({
         <img
           src={article.heroImageUrl}
           alt={article.title}
+          width={960}
+          height={536}
+          fetchPriority="high"
+          loading="eager"
+          decoding="async"
           referrerPolicy="no-referrer"
           onError={(e) => {
             const img = e.currentTarget;

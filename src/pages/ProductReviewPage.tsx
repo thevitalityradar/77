@@ -1770,6 +1770,10 @@ export const ProductReviewPage: React.FC<ProductReviewPageProps> = ({
                   : product.imageUrl
               }
               alt={`${product.name} Supplement Bottle`}
+              width={320}
+              height={320}
+              loading="lazy"
+              decoding="async"
               referrerPolicy="no-referrer"
               onError={() => setImgError(true)}
               className="max-h-48 w-auto object-contain"
