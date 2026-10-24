@@ -129,6 +129,17 @@ export const METADATA_CATALOG: Record<string, PageMetadata> = {
     category: "Men's Health & Longevity",
     ogType: 'product'
   },
+  '/review/gluco6-blood-sugar-glut4-metabolism-review': {
+    path: '/review/gluco6-blood-sugar-glut4-metabolism-review',
+    title: 'Gluco6 Review: GLUT-4 Blood Sugar Support (2026)',
+    h1: 'Gluco6 Review: Clinical GLUT-4 Glucose & Sucrase Inhibition Evidence (2026)',
+    description:
+      'Independent clinical evaluation of Gluco6. We audit Sukre (L-arabinose), TeaCrine, Gymnema, Ceylon Cinnamon, Chromium, $39 pricing, and refund terms.',
+    keywords:
+      'Gluco6 review, Gluco 6 blood sugar, sukre l-arabinose, teacrine energy, gymnema sylvestre cravings, chromium glucose, GLUT-4 transporter',
+    category: 'Metabolic & Glycemic Health',
+    ogType: 'product'
+  },
 
   // 6 Clinical Research Articles
   '/article/brain-glucose-metabolism-saffron-berberine-cognitive-health': {

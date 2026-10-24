@@ -113,6 +113,15 @@ const ROUTES = [
     description: 'Clinical evaluation of Nitric Boost Ultra drink mix. We audit Beet Root nitrates, L-Citrulline, Epimedium icariin, blood pressure data, and refund terms.',
     ogType: 'product'
   },
+  {
+    path: '/review/gluco6-blood-sugar-glut4-metabolism-review',
+    type: 'review',
+    reviewKey: 'gluco6-blood-sugar-glut4-metabolism-review',
+    title: 'Gluco6 Review: GLUT-4 Blood Sugar Support (2026)',
+    h1: 'Gluco6 Review: Clinical GLUT-4 Glucose & Sucrase Inhibition Evidence (2026)',
+    description: 'Independent clinical evaluation of Gluco6. We audit Sukre (L-arabinose), TeaCrine, Gymnema, Ceylon Cinnamon, Chromium, $39 pricing, and refund terms.',
+    ogType: 'product'
+  },
 
   // 8–13. 6 Clinical Research Papers
   {
@@ -391,6 +400,7 @@ function renderFooter() {
               <li><a href="/review/the-genius-song-review" style="color: #44403c; text-decoration: underline;">The Genius Song Review</a></li>
               <li><a href="/review/visiflora-gut-eye-axis-vision-support-review" style="color: #44403c; text-decoration: underline;">VisiFlora Review</a></li>
               <li><a href="/review/nitric-boost-ultra-blood-flow-stamina-review" style="color: #44403c; text-decoration: underline;">Nitric Boost Ultra Review</a></li>
+              <li><a href="/review/gluco6-blood-sugar-glut4-metabolism-review" style="color: #44403c; text-decoration: underline;">Gluco6 Review</a></li>
             </ul>
           </div>
           <div>
