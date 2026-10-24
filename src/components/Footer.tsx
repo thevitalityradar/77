@@ -106,6 +106,18 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   iGenics Review (2026)
                 </a>
               </li>
+              <li>
+                <a
+                  href="/review/the-pineal-guardian-brain-memory-pineal-review"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onNavigate('/review/the-pineal-guardian-brain-memory-pineal-review');
+                  }}
+                  className="hover:text-white transition-colors text-stone-300 block"
+                >
+                  The Pineal Guardian (2026)
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -185,6 +197,18 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   className="hover:text-white transition-colors text-stone-300 block"
                 >
                   Macular Carotenoids &amp; Retina
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/article/pineal-gland-calcification-fluoride-circadian-cognition-science"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onNavigate('/article/pineal-gland-calcification-fluoride-circadian-cognition-science');
+                  }}
+                  className="hover:text-white transition-colors text-stone-300 block"
+                >
+                  Pineal Calcification &amp; Fluoride
                 </a>
               </li>
             </ul>

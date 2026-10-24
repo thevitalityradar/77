@@ -67,6 +67,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://77-review.vercel.app/review/the-pineal-guardian-brain-memory-pineal-review</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://77-review.vercel.app/article/brain-glucose-metabolism-saffron-berberine-cognitive-health</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -99,6 +105,12 @@
   <url>
     <loc>https://77-review.vercel.app/article/macular-carotenoids-retinal-photoreceptor-science</loc>
     <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://77-review.vercel.app/article/pineal-gland-calcification-fluoride-circadian-cognition-science</loc>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

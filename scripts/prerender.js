@@ -122,6 +122,15 @@ const ROUTES = [
     description: 'Independent clinical evaluation of Gluco6. We audit Sukre (L-arabinose), TeaCrine, Gymnema, Ceylon Cinnamon, Chromium, $39 pricing, and refund terms.',
     ogType: 'product'
   },
+  {
+    path: '/review/the-pineal-guardian-brain-memory-pineal-review',
+    type: 'review',
+    reviewKey: 'the-pineal-guardian-brain-memory-pineal-review',
+    title: 'The Pineal Guardian Review: Pineal & Memory Drops (2026)',
+    h1: 'The Pineal Guardian Review: Clinical Pineal Gland & Memory Drops Evidence (2026)',
+    description: 'Independent clinical evaluation of The Pineal Guardian liquid drops. We audit Bacopa, Lion’s Mane, Tamarind fluoride excretion, $39 pricing, and 365-day ClickBank guarantee.',
+    ogType: 'product'
+  },
 
   // 8–13. 6 Clinical Research Papers
   {
@@ -176,6 +185,15 @@ const ROUTES = [
     title: 'Macular Carotenoids & Retinal Photoreceptor Guide',
     h1: 'Macular Carotenoids & Retinal Photoreceptor Health Science',
     description: 'Ophthalmic research on lutein, zeaxanthin, and meso-zeaxanthin optical filtering against blue light and oxidative damage in human photoreceptors.',
+    ogType: 'article'
+  },
+  {
+    path: '/article/pineal-gland-calcification-fluoride-circadian-cognition-science',
+    type: 'article',
+    articleKey: 'pineal-gland-calcification-fluoride-circadian-cognition-science',
+    title: 'Pineal Calcification & Fluoride: Clinical Science Guide',
+    h1: 'Pineal Gland Calcification, Fluoride Clearance & Circadian Cognitive Science',
+    description: 'Clinical research on epithalamic calcification, fluoride excretion trials with tamarind, and sublingual nootropics (Lion’s Mane, Bacopa) for memory and sleep.',
     ogType: 'article'
   },
 
@@ -401,6 +419,7 @@ function renderFooter() {
               <li><a href="/review/visiflora-gut-eye-axis-vision-support-review" style="color: #44403c; text-decoration: underline;">VisiFlora Review</a></li>
               <li><a href="/review/nitric-boost-ultra-blood-flow-stamina-review" style="color: #44403c; text-decoration: underline;">Nitric Boost Ultra Review</a></li>
               <li><a href="/review/gluco6-blood-sugar-glut4-metabolism-review" style="color: #44403c; text-decoration: underline;">Gluco6 Review</a></li>
+              <li><a href="/review/the-pineal-guardian-brain-memory-pineal-review" style="color: #44403c; text-decoration: underline;">The Pineal Guardian Review</a></li>
             </ul>
           </div>
           <div>

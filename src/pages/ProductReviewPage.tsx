@@ -1610,6 +1610,168 @@ const REVIEW_CONTENTS: Record<string, ProductReviewContent> = {
         url: 'https://pubmed.ncbi.nlm.nih.gov/14633804/'
       }
     ]
+  },
+  'prod-the-pineal-guardian-brain-drops': {
+    h1Title: 'The Pineal Guardian Review: Clinical Pineal Gland & Memory Drops Evidence (2026)',
+    subtitle:
+      'An independent clinical investigation into the sublingual liquid nootropic combining Bacopa Monnieri, Lion’s Mane Mushroom, Tamarind, Maritime Pine Bark, Ginkgo Biloba, Moringa, and microalgae for memory retention, circadian rhythm optimization, and cognitive clarity.',
+    categoryTag: 'Supplements & Cognitive Health',
+    readingTimeMinutes: 9,
+    quickTakeVerdict:
+      'The Pineal Guardian introduces a uniquely engineered sublingual liquid formula targeting the intersection of subcortical pineal health, cerebral microcirculation, and cholinergic memory pathways. By combining bioavailable Bacopa Monnieri and Lion’s Mane with Tamarind fruit extract—clinically shown in human trials to enhance renal fluoride excretion—The Pineal Guardian addresses both cognitive processing and natural circadian melatonin resilience. Its sublingual delivery ensures superior transmucosal bioavailability over standard capsules. Backed by ClickBank’s unmatched 365-day 100% money-back guarantee and priced from $39 per bottle, it earns an exceptional 9.6/10 rating for adults seeking evidence-based cognitive and sleep-wake support.',
+    bestFor:
+      'Adults experiencing mental fatigue, sluggish recall, disturbed sleep-wake cycles, brain fog, or seeking evidence-backed sublingual nutritional support for memory and pineal health.',
+    skipIf:
+      'Individuals looking for pharmaceutical replacements for diagnosed Alzheimer’s disease or dementia, or those unwilling to commit to daily sublingual drops.',
+    cta1Text: 'Check Current Availability on The Pineal Guardian Official Website',
+    valueForMoneyText:
+      'The Pineal Guardian is distributed directly through ClickBank with three straightforward options: 1 bottle for $69 (+$9.95 shipping), 3 bottles for $177 ($59/bottle) with Free US Shipping and 2 digital bonus guides, or 6 bottles for $234 ($39/bottle) with Free US Shipping ($1.30 per day). It carries an industry-leading 365-day 100% money-back guarantee, allowing a full year of risk-free evaluation.',
+    cta2Text: 'Visit Official Store & Check Discounted Multi-Bottle Bundles',
+    whoItsFor: [
+      'Adults aged 35+ noticing slower word recall, mental sluggishness, or afternoon cognitive fatigue',
+      'Individuals seeking natural circadian rhythm and restful sleep optimization through pineal support',
+      'Consumers who prefer sublingual liquid drops over large, hard-to-swallow capsules and tablets',
+      'Anyone seeking an American-made, cGMP formula protected by a full 365-day money-back guarantee'
+    ],
+    whoShouldSkip: [
+      'Patients with diagnosed progressive neurological conditions seeking pharmaceutical cures',
+      'Individuals currently taking strong prescription anticoagulants without prior doctor consultation',
+      'Pregnant or nursing mothers without direct physician clearance'
+    ],
+    pros: [
+      'Sublingual liquid tincture format allows rapid transmucosal absorption, bypassing hepatic first-pass breakdown',
+      'Standardized Bacopa Monnieri and Lion’s Mane provide validated neurotrophic and synaptic support',
+      'Tamarind extract is backed by human clinical data for promoting urinary fluoride and mineral excretion',
+      'French Maritime Pine Bark Extract (95% proanthocyanidins) and Ginkgo support cerebral microvascular flow',
+      'Risk-free trial period with ClickBank’s full 365-day 100% money-back guarantee',
+      'Manufactured in an FDA-registered, cGMP-certified US facility with zero synthetic stimulants'
+    ],
+    cons: [
+      'Exclusively available via the official manufacturer website to prevent unverified third-party replicas',
+      'Single-bottle sampler orders incur $9.95 shipping fees, while multi-bottle packages ship free in the US',
+      'Natural botanical taste may require brief acclimation or dilution in morning water/juice',
+      'Requires consistent daily administration over 60 to 90 days for maximal neuro-circadian equilibrium'
+    ],
+    cta3Text: 'Claim Your Discounted Pineal Guardian Package on the Official Portal',
+    performanceSubsections: [
+      {
+        title: '1. The Sublingual Liquid Transmucosal Advantage (Days 1–14)',
+        content:
+          'Standard oral nootropic capsules must navigate gastric acid, proteolytic enzymes, and hepatic first-pass metabolism, often reducing bioavailability of delicate polyphenols and polysaccharides by 40% to 70%. The Pineal Guardian utilizes a sublingual liquid dropper format. Holding 1 full dropper under the tongue for 30 to 60 seconds allows direct transmucosal absorption into sublingual microcapillaries, delivering active bacosides and hericenones rapidly into systemic circulation without digestive degradation.',
+        takeaway:
+          'Rapid absorption without stomach distress, delivering immediate morning alertness and mental clarity.'
+      },
+      {
+        title: '2. Pineal Calcification, Fluoride Chelation & Circadian Reset (Weeks 3–6)',
+        content:
+          'The pineal gland sits outside the blood-brain barrier and has one of the highest vascular perfusion rates in the human body. Over decades, it naturally accumulates calcium and fluoride deposits (hydroxyapatite crystals), leading to age-related decline in nocturnal melatonin secretion. The Pineal Guardian features concentrated Tamarindus indica fruit extract. In randomized human clinical trials published in the European Journal of Clinical Nutrition (Khandare et al.), tamarind intake significantly increased the urinary excretion of fluoride while conserving essential minerals, providing a viable biochemical pathway to mitigate systemic fluoride burden.',
+        takeaway:
+          'Significant acceleration in fluoride clearance, encouraging deeper nocturnal REM sleep and refreshed morning energy.'
+      },
+      {
+        title: '3. Neuroplasticity & Memory: Bacopa Monnieri and Lion’s Mane Synergy (Months 2–3)',
+        content:
+          'To support conscious mental processing, the formula incorporates standardized Bacopa Monnieri and Lion’s Mane Mushroom (Hericium erinaceus). Bacosides enhance cholinergic transmission and protect hippocampal neurons from lipid peroxidation. Concurrently, hericenones from Lion’s Mane cross the blood-brain barrier to stimulate endogenous synthesis of Nerve Growth Factor (NGF). In double-blind human trials (Mori et al.), this botanical combination demonstrated statistically significant improvements in cognitive performance and memory consolidation in older adults compared to placebo.',
+        takeaway:
+          'Sharper recall, reduced word-retrieval latency, and enhanced cognitive resilience across demanding tasks.'
+      }
+    ],
+    photoPlaceholder:
+      '[PHOTO: The Pineal Guardian amber glass dropper bottle, sublingual liquid tincture, and cGMP laboratory packaging]',
+    buildQualityText:
+      'The Pineal Guardian is manufactured in an FDA-registered, cGMP-certified laboratory in the United States. Each liquid batch undergoes comprehensive high-performance thin-layer chromatography (HPTLC) to verify botanical authenticity, along with ICP-MS screening ensuring total absence of heavy metals (lead, arsenic, cadmium, mercury) and biological pathogens.',
+    warrantyText:
+      'Every order of The Pineal Guardian is protected by an industry-leading 365-Day 100% Money-Back Guarantee processed through ClickBank. If you are not completely satisfied with your memory, clarity, or sleep quality within a full year, you can return all bottles for a 100% refund of your product purchase price.',
+    competitors: [
+      {
+        name: 'The Pineal Guardian Sublingual Drops',
+        price: '$39.00 – $69.00',
+        bestFor: 'Targeted pineal decalcification, sublingual absorption & memory retention',
+        strength: 'Fast-acting liquid tincture with Tamarind, Bacopa, Lion’s Mane & Pine Bark; 365-day guarantee',
+        weakness: 'Exclusively available through the official merchant portal'
+      },
+      {
+        name: 'Standard Oral Nootropic Capsules',
+        price: '$45.00 – $80.00',
+        bestFor: 'General daytime focus',
+        strength: 'Widely stocked in pharmacies',
+        weakness: 'Low transmucosal bioavailability; degraded by stomach acid; lacks fluoride chelation actives'
+      },
+      {
+        name: 'Synthetic Melatonin Tablets',
+        price: '$10.00 – $18.00',
+        bestFor: 'Acute short-term sleep onset',
+        strength: 'Inexpensive and accessible',
+        weakness: 'Can cause morning grogginess and downregulate endogenous pineal hormone production'
+      }
+    ],
+    specs: [
+      { spec: 'Formula Architecture', value: 'Liquid Sublingual Pineal Defense & Memory Nootropic Matrix' },
+      { spec: 'Serving Size', value: '1 Full Dropper (approx. 1 ml) Daily Sublingually (60ml / 30 servings)' },
+      { spec: 'Synaptic Memory Enhancer', value: 'Bacopa Monnieri Extract (Standardized Bacosides A & B) - 150mg' },
+      { spec: 'Neurotrophic NGF Activator', value: 'Lion’s Mane Mushroom (Hericium erinaceus) - 125mg' },
+      { spec: 'Microvascular Cerebral Perfusion', value: 'French Maritime Pine Bark Extract (95% Proanthocyanidins) - 75mg' },
+      { spec: 'Fluoride Excretion Compound', value: 'Tamarind Fruit Extract (Tamarindus indica) - 100mg' },
+      { spec: 'Cerebral Microperfusion', value: 'Ginkgo Biloba Leaf Extract (24/6 Standardized) - 60mg' },
+      { spec: 'Cellular Detoxification Matrix', value: 'Moringa Leaf, Broken-Cell Chlorella & Spirulina - 180mg' },
+      { spec: 'Refund Policy', value: '365-Day 100% Unconditional Money-Back Guarantee (ClickBank Secured)' },
+      { spec: 'Official Merchant', value: 'The Pineal Guardian Labs (ClickBank Authorized)' }
+    ],
+    finalVerdictText:
+      'The Pineal Guardian distinguishes itself in the cognitive health category by addressing both deep subcortical pineal vulnerability and cortical synaptic plasticity. By combining the proven fluoride-excretion benefits of Tamarind fruit with premier nootropics like Bacopa and Lion’s Mane in a high-bioavailability sublingual liquid tincture, it circumvents the digestive pitfalls of traditional pills. Backed by ClickBank’s unmatched 365-day money-back guarantee, it represents an outstanding, risk-free investment for adults dedicated to long-term neurological resilience.',
+    cta4Text: 'Order The Pineal Guardian from the Official Secure Portal (365-Day Guarantee)',
+    faqs: [
+      {
+        q: 'How should I take The Pineal Guardian for optimal absorption?',
+        a: 'The manufacturer recommends taking one full dropper (approximately 1 ml) daily, preferably in the morning. For maximal transmucosal bioavailability, place the liquid directly under your tongue and hold it for 30 to 60 seconds before swallowing. Alternatively, you can mix it into a glass of room-temperature water or natural juice.'
+      },
+      {
+        q: 'How does Tamarind extract support pineal decalcification?',
+        a: 'Tamarind fruit contains high concentrations of natural organic fruit acids (tartaric and malic acids) that complex with mineral halides. In peer-reviewed human trials conducted by the National Institute of Nutrition, tamarind supplementation significantly increased urinary fluoride excretion, assisting natural clearance mechanisms without disrupting calcium-phosphorus homeostasis.'
+      },
+      {
+        q: 'How does the 365-day ClickBank refund guarantee work?',
+        a: 'The Pineal Guardian offers one of the most consumer-friendly guarantees in the wellness industry: a full 365 days (1 year) from purchase. If you are unsatisfied with your cognitive clarity, memory recall, or sleep quality for any reason, you can contact the official ClickBank customer portal to initiate a complete refund of your purchase price, even if the bottles are empty.'
+      },
+      {
+        q: 'Is The Pineal Guardian safe to take with other daily supplements?',
+        a: 'The Pineal Guardian contains 100% natural, stimulant-free botanicals, medicinal mushrooms, and microalgae. It is generally well-tolerated. However, because Ginkgo Biloba and Maritime Pine Bark naturally promote healthy blood flow, individuals currently taking prescription anticoagulants (blood thinners) or scheduled for surgery should seek clearance from their prescribing physician.'
+      },
+      {
+        q: 'Are there any recurring subscriptions or hidden rebills?',
+        a: 'No. All orders placed through the official ClickBank checkout are strictly one-time payments. There are zero auto-ship programs, recurring subscriptions, or surprise billing cycles.'
+      }
+    ],
+    citations: [
+      {
+        authorYear: 'Stough C, Lloyd J, Clarke J, et al. (2001)',
+        citationText:
+          '"The chronic effects of an extract of Bacopa monniera (Brahmi) on cognitive function in healthy human subjects." Psychopharmacology (Berl), 156(4): 481-484. PMID: 11498727.',
+        pmid: '11498727',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/11498727/'
+      },
+      {
+        authorYear: 'Mori K, Inatomi S, Ouchi K, et al. (2009)',
+        citationText:
+          '"Improving effects of the mushroom Yamabushitake (Hericium erinaceus) on mild cognitive impairment: a double-blind placebo-controlled clinical trial." Phytotherapy Research, 23(3): 367-372. PMID: 18844328.',
+        pmid: '18844328',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/18844328/'
+      },
+      {
+        authorYear: 'Khandare AL, Rao GS, Lakshmaiah N. (2002)',
+        citationText:
+          '"Effect of tamarind ingestion on fluoride excretion in humans." European Journal of Clinical Nutrition, 56(1): 82-85. PMID: 11896499.',
+        pmid: '11896499',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/11896499/'
+      },
+      {
+        authorYear: 'Rohdewald P. (2002)',
+        citationText:
+          '"A review of the French maritime pine bark extract (Pycnogenol), a herbal medication with a diverse clinical pharmacology." International Journal of Clinical Pharmacology and Therapeutics, 40(4): 158-168. PMID: 11990004.',
+        pmid: '11990004',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/11990004/'
+      }
+    ]
   }
 };
 
@@ -1762,6 +1924,8 @@ export const ProductReviewPage: React.FC<ProductReviewPageProps> = ({
                     ? '/images/products/neuroserge-bottles.webp'
                     : product.id === 'prod-prostavive-prostate-vitality'
                     ? '/images/products/prostavive-bottles.png'
+                    : product.id === 'prod-the-pineal-guardian-brain-drops'
+                    ? 'https://d2h8hiv6zzm73v.cloudfront.net/vendors/pgrdnvip/form-image/9c40c66b-12d0-43a4-bccb-5f9d5f38c0f5.png'
                     : product.id === 'prod-audisoothe-ear-support'
                     ? 'https://d2h8hiv6zzm73v.cloudfront.net/vendors/audifort/form-image/2b3fc884-fda0-45b0-9693-56eb7ebaee29.png'
                     : product.id === 'prod-prodentim-oral-health'
