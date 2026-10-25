@@ -118,6 +118,18 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   The Pineal Guardian (2026)
                 </a>
               </li>
+              <li>
+                <a
+                  href="/review/spartamax-male-enhancement-gummies-review"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onNavigate('/review/spartamax-male-enhancement-gummies-review');
+                  }}
+                  className="hover:text-white transition-colors text-stone-300 block"
+                >
+                  SpartaMax Gummies (2026)
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -209,6 +221,18 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   className="hover:text-white transition-colors text-stone-300 block"
                 >
                   Pineal Calcification &amp; Fluoride
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/article/erectile-firmness-nitric-oxide-endothelial-male-vitality-science"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onNavigate('/article/erectile-firmness-nitric-oxide-endothelial-male-vitality-science');
+                  }}
+                  className="hover:text-white transition-colors text-stone-300 block"
+                >
+                  Male Firmness &amp; Nitric Oxide
                 </a>
               </li>
             </ul>

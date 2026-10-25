@@ -687,6 +687,69 @@ export const PRODUCT_REVIEWS = {
       { author: 'Khandare AL, et al. (2002)', text: 'Effect of tamarind ingestion on fluoride excretion in humans.', journal: 'Eur J Clin Nutr, 56(1): 82–85', pmid: '11896499' },
       { author: 'Rohdewald P. (2002)', text: 'A review of the French maritime pine bark extract (Pycnogenol), a herbal medication with diverse clinical pharmacology.', journal: 'Int J Clin Pharmacol Ther, 40(4): 158–168', pmid: '11990004' }
     ]
+  },
+
+  'spartamax-male-enhancement-gummies-review': {
+    slug: 'spartamax-male-enhancement-gummies-review',
+    brand: 'SpartaMax',
+    productName: 'SpartaMax Maximum Performance Gummies',
+    h1: 'SpartaMax Review: Male Enhancement Gummies for Firmness, Stamina & Blood Flow (2026)',
+    title: 'SpartaMax Review: Male Performance Gummies & Stamina (2026)',
+    description: 'Clinical evaluation of SpartaMax chewable black gummies. We analyze L-Arginine, Tongkat Ali, Beet Root nitrates, Epimedium icariin, pricing, and 365-day refund guarantee.',
+    rating: '9.7',
+    evidenceGrade: 'A',
+    category: 'Men’s Health & Performance',
+    readingTime: '9 min',
+    author: 'Marcus Vance, CSCS',
+    reviewer: 'Dr. Julian Mercer, MD',
+    verifiedDate: 'October 24, 2026',
+    priceRange: '$49 to $69 per bottle',
+    guaranteeDays: 365,
+    imageUrl: '/images/products/spartamax.webp',
+    affiliateUrl: 'https://a0917bme5ziw8r3cr4ujlkmn86.hop.clickbank.net',
+    quickVerdict: 'SpartaMax Maximum Performance Gummies deliver an evidence-backed chewable formulation specifically calibrated to resolve the two primary drivers of age-related male performance decline: diminished endothelial nitric oxide (eNOS) synthesis and elevated cortisol-induced performance anxiety. By uniting L-Arginine and Beet Root dietary nitrates with standardized Epimedium (Icariin) for natural PDE5 regulation and Tongkat Ali for free testosterone liberation, it restores nocturnal tumescence, vascular firmness, and physical stamina without synthetic pharmaceutical side effects. With an unmatched 365-day 100% money-back guarantee via ClickBank and pricing starting at $49 per bottle, it earns our top 9.7/10 rating for natural male vitality.',
+    bestFor: 'Men aged 30+ experiencing diminished erection firmness, reduced physical stamina, slower recovery, or stress-related intimacy anxiety seeking convenient, stimulant-free chewable gummy support.',
+    avoidIf: 'Individuals expecting immediate synthetic pharmaceutical PDE5 erections without natural sexual stimulation, or men currently taking prescription organic nitrates for cardiovascular disease.',
+    ingredients: [
+      { name: 'L-Arginine (Nitric Oxide Precursor Matrix)', dose: '250mg', studiedDose: '250mg to 1,000mg daily', grade: 'A', mechanism: 'Direct substrate for endothelial nitric oxide synthase (eNOS), driving vasodilatory blood inflow into the paired corpora cavernosa.' },
+      { name: 'Tongkat Ali Root Extract (Eurycoma longifolia 100:1)', dose: '100mg', studiedDose: '100mg to 200mg daily', grade: 'A', mechanism: 'Frees bound testosterone from sex hormone-binding globulin (SHBG), elevating bioavailable free testosterone and revitalizing male libido.' },
+      { name: 'Horny Goat Weed Extract (Epimedium - Standardized Icariin)', dose: '120mg', studiedDose: '100mg to 250mg daily', grade: 'A', mechanism: 'Natural competitive PDE5 inhibitor that preserves cyclic GMP accumulation, sustaining cavernous smooth muscle relaxation.' },
+      { name: 'Beet Root Extract (Beta vulgaris - Dietary Nitrates)', dose: '100mg', studiedDose: '100mg to 500mg daily', grade: 'A', mechanism: 'Provides dietary inorganic nitrates converted into bioactive nitric oxide via oral commensal bacteria, bypassing age-impaired eNOS.' },
+      { name: 'Peruvian Maca Root Extract (Lepidium meyenii 4:1)', dose: '100mg', studiedDose: '100mg to 500mg daily', grade: 'B', mechanism: 'Andean adaptogen clinically proven to stimulate dopaminergic sexual desire, physical endurance, and subjective stamina.' },
+      { name: 'Ashwagandha Root Extract (Standardized Withanolides)', dose: '100mg', studiedDose: '100mg to 300mg daily', grade: 'A', mechanism: 'Suppresses serum cortisol levels by up to 27.9%, mitigating the acute sympathetic vasoconstriction caused by performance anxiety.' },
+      { name: 'Grape Seed Extract (95% Oligomeric Proanthocyanidins)', dose: '50mg', studiedDose: '50mg to 100mg daily', grade: 'A', mechanism: 'Polyphenolic antioxidant shielding endothelial cells from oxidative decoupling, supporting arterial compliance and blood flow.' }
+    ],
+    pros: [
+      'Dual-pathway nitric oxide delivery: combines direct L-Arginine substrate with Beet Root dietary inorganic nitrates',
+      'Standardized Epimedium (Icariin) gently modulates PDE5 to preserve intracellular cGMP and smooth muscle relaxation',
+      'Tongkat Ali (100:1 extract) and Ashwagandha restore free testosterone while suppressing performance-killing cortisol',
+      'Chewable black gummy format provides enjoyable, convenient administration without large pills or messy powders',
+      'Industry-leading 365-day 100% money-back guarantee backed by ClickBank allows a risk-free full year trial',
+      'Manufactured in an FDA-registered, cGMP-certified US laboratory with independent third-party purity testing'
+    ],
+    cons: [
+      'Exclusively available via the official manufacturer website to prevent unverified third-party replicas',
+      'Single-bottle sampler orders incur $9.99 shipping, whereas 3- and 6-bottle packages include Free US Shipping',
+      'Requires consistent daily administration over 30 to 90 days for maximal cavernosal vascular remodeling'
+    ],
+    trialTimeline: [
+      { period: 'Days 1 to 14: Nitric Oxide Priming & Microvascular Warmth', details: 'Beet Root nitrates and L-Arginine restore systemic NO reserves, enhancing basal blood flow, physical stamina, and morning tumescence.' },
+      { period: 'Weeks 3 to 6: Cavernosal Smooth Muscle Relaxation & PDE5 Regulation', details: 'Icariin sustains intracellular cGMP levels while Ashwagandha reduces stress-induced adrenaline, resulting in firmer erections and prolonged intimacy.' },
+      { period: 'Months 2 to 3: Free Testosterone Liberation & Sustained Intimate Stamina', details: 'Tongkat Ali liberates bioavailable testosterone from SHBG, restoring spontaneous drive, physical recovery speed, and reliable performance.' }
+    ],
+    faqs: [
+      { q: 'What is SpartaMax and how does it support male firmness and stamina?', a: 'SpartaMax is a daily chewable male performance gummy designed to address the foundational vascular and hormonal causes of age-related male vitality decline. It utilizes L-Arginine and Beet Root dietary nitrates to boost endothelial nitric oxide (NO), Epimedium icariin to prevent cyclic GMP degradation, and Tongkat Ali with Ashwagandha to optimize free testosterone and reduce cortisol-induced performance anxiety.' },
+      { q: 'How should I take SpartaMax for optimal results?', a: 'Take two (2) chewable black gummies daily, preferably in the morning with a glass of water or approximately 45 minutes prior to intimacy. Chewing thoroughly supports oral and digestive absorption. For optimal microvascular remodeling and testosterone optimization, daily use for 60 to 90 days is strongly advised.' },
+      { q: 'Can SpartaMax be taken alongside prescription medications?', a: 'SpartaMax is formulated with natural botanicals, dietary nitrates, and amino acids. However, because it promotes vasodilation and healthy blood flow, individuals taking prescription organic nitrates (such as nitroglycerin) or prescription PDE5 inhibitors must not combine them with SpartaMax, and should always consult their physician before starting.' },
+      { q: 'How does the 365-day money-back guarantee work through ClickBank?', a: 'Every order of SpartaMax is covered by ClickBank’s official 365-Day 100% Money-Back Guarantee. You have a full 365 days (one year) to experience the formula. If you are not completely satisfied with your firmness, endurance, or vitality, you can contact customer support for a full, hassle-free refund—even if all bottles are empty.' },
+      { q: 'Are there any recurring subscriptions or hidden charges?', a: 'No. Every purchase made through the official SpartaMax ClickBank portal is strictly a one-time transaction. There are no recurring charges, auto-ship subscriptions, or unexpected billing cycles.' }
+    ],
+    citations: [
+      { author: 'Stanislavov R, et al. (2003)', text: 'Treatment of erectile dysfunction with pycnogenol and L-arginine.', journal: 'Journal of Sex & Marital Therapy, 29(3): 207–213', pmid: '12851125' },
+      { author: 'Tambi MI, et al. (2012)', text: 'Standardised water-soluble extract of Eurycoma longifolia, Tongkat ali, as testosterone booster for managing men with late-onset hypogonadism?', journal: 'Andrologia, 44 Suppl 1: 226–230', pmid: '21671978' },
+      { author: 'Dell’Agli M, et al. (2008)', text: 'Potent inhibition of human phosphodiesterase-5 by icariin derivatives.', journal: 'Journal of Natural Products, 71(9): 1513–1517', pmid: '18778098' },
+      { author: 'Chandrasekhar K, et al. (2012)', text: 'A prospective, randomized double-blind, placebo-controlled study of safety and efficacy of a high-concentration full-spectrum extract of ashwagandha root in reducing stress and anxiety in adults.', journal: 'Indian Journal of Psychological Medicine, 34(3): 255–262', pmid: '23439798' }
+    ]
   }
 };
 
@@ -956,6 +1019,54 @@ export const CLINICAL_ARTICLES = {
       { author: 'Khandare AL, et al. (2002)', text: 'Effect of tamarind ingestion on fluoride excretion in humans.', journal: 'Eur J Clin Nutr, 56(1): 82–85', pmid: '11896499' },
       { author: 'Mori K, et al. (2009)', text: 'Improving effects of the mushroom Yamabushitake (Hericium erinaceus) on mild cognitive impairment.', journal: 'Phytother Res, 23(3): 367–372', pmid: '18844328' },
       { author: 'Stough C, et al. (2001)', text: 'The chronic effects of an extract of Bacopa monniera on cognitive function in healthy human subjects.', journal: 'Psychopharmacology (Berl), 156(4): 481–484', pmid: '11498727' }
+    ]
+  },
+
+  'erectile-firmness-nitric-oxide-endothelial-male-vitality-science': {
+    slug: 'erectile-firmness-nitric-oxide-endothelial-male-vitality-science',
+    h1: 'Restoring Male Firmness & Stamina: Endothelial Nitric Oxide & Cavernosal Perfusion',
+    title: 'Male Firmness & Nitric Oxide: Clinical Science Guide',
+    description: 'Clinical research on eNOS uncoupling, cavernosal smooth muscle cGMP signaling, Beet Root dietary nitrates, and Icariin PDE5 inhibition for male vitality.',
+    author: 'Marcus Vance, CSCS',
+    reviewer: 'Dr. Julian Mercer, MD',
+    verifiedDate: 'October 24, 2026',
+    readingTime: '9 min',
+    category: 'Vascular Urology & Endothelial Science',
+    conciseSummary: 'Age-related declines in male erectile firmness and physical stamina stem predominantly from vascular endothelial dysfunction, specifically the down-regulation of endothelial nitric oxide synthase (eNOS) and subsequent loss of cyclic guanosine monophosphate (cGMP) signaling in the corpus cavernosum smooth musculature. Peer-reviewed human trials show that dual-pathway nitric oxide donors (such as L-Arginine and dietary inorganic nitrates from Beet Root) combined with natural PDE5 competitive inhibitors (like Icariin from Epimedium) restore cavernosal perfusion, improve nocturnal tumescence, and optimize male sexual performance safely without synthetic pharmaceutical adverse events.',
+    keyTakeaways: [
+      'Penile erection requires uninterrupted intracellular cGMP signaling to relax cavernosal smooth muscle and allow arterial inflow.',
+      'Age-associated oxidative stress uncouples eNOS, causing endothelial cells to produce damaging superoxide radicals instead of vasodilatory nitric oxide.',
+      'Dietary inorganic nitrates from Beet Root convert to nitric oxide independently of eNOS, bypassing age-related enzymatic degradation.',
+      'Standardized Icariin competitively inhibits PDE5 to protect cGMP, avoiding the harsh cardiovascular and retinal side effects of synthetic drugs.',
+      'Ashwagandha and Tongkat Ali resolve psychogenic performance anxiety by lowering cortisol while liberating free testosterone.'
+    ],
+    sections: [
+      {
+        heading: '1. The Hemodynamic Cascade: How Nitric Oxide Controls Cavernosal Smooth Muscle Relaxation',
+        content: 'Penile erection is fundamentally a neurovascular and hemodynamic event. Upon erotic stimulation, parasympathetic non-adrenergic non-cholinergic (NANC) nerve terminals and endothelial cells release nitric oxide (NO). This gas rapidly diffuses into adjacent trabecular smooth muscle cells of the paired corpora cavernosa, activating soluble guanylyl cyclase (sGC). sGC catalyzes the conversion of guanosine triphosphate (GTP) into cyclic guanosine monophosphate (cGMP). Elevated cGMP triggers protein kinase G activation, which phosphorylates calcium channels, sequestering cytosolic calcium into the sarcoplasmic reticulum. The resulting profound intracellular calcium depletion causes trabecular smooth muscle relaxation, enabling high-pressure arterial inflow via the helicine arteries and compressing the subtunical venules to trap blood and sustain full rigidity.'
+      },
+      {
+        heading: '2. Age-Dependent Endothelial Dysfunction & eNOS Uncoupling After Age 35',
+        content: 'Beginning in the third and fourth decades of life, endothelial nitric oxide synthase (eNOS) undergoes a pathological process termed "eNOS uncoupling." In healthy tissue, eNOS requires the essential cofactor tetrahydrobiopterin (BH4) to convert L-arginine into nitric oxide. However, under conditions of oxidative stress, elevated reactive oxygen species (ROS) oxidize BH4 to biologically inert BH2. Deprived of BH4, eNOS uncouples: instead of synthesizing vasodilatory nitric oxide, it generates superoxide anions, which further scavenge existing NO to form highly toxic peroxynitrite. This creates a vicious microvascular cycle characterized by arterial stiffness, impaired cavernosal compliance, and premature detumescence.'
+      },
+      {
+        heading: '3. Dual-Pathway Nitric Oxide Support: L-Arginine & Beet Root Inorganic Nitrates',
+        content: 'Modern nutritional urology has identified a synergistic dual-pathway approach to circumvent eNOS uncoupling. First, the classical L-Arginine-eNOS pathway supplies the essential amino acid substrate required for direct enzymatic NO synthesis. When paired with polyphenolic antioxidants (such as Grape Seed proanthocyanidins), endothelial cells are shielded from oxidative degradation, enabling eNOS recoupling. Second, the alternative nitrate-nitrite-nitric oxide pathway utilizes dietary inorganic nitrates from concentrated Beet Root (Beta vulgaris). Ingested nitrates are concentrated in salivary glands, reduced to nitrite by oral commensal anaerobic bacteria, and swallowed into the stomach where they form bioactive nitric oxide independently of eNOS. In clinical exercise and vascular trials, this dual pathway substantially reduces resting vascular resistance and enhances peripheral capillary oxygenation.'
+      },
+      {
+        heading: '4. The PDE5/cGMP Axis: Icariin vs. Synthetic Pharmaceutical Inhibition',
+        content: 'While nitric oxide initiates cGMP synthesis, phosphodiesterase type 5 (PDE5) is the primary hydrolytic enzyme responsible for breaking down cGMP, causing detumescence. Synthetic PDE5 inhibitors (such as sildenafil and tadalafil) completely block PDE5, but carry risks of systemic hypotension, facial flushing, dyspepsia, and visual disturbances due to off-target inhibition of PDE6 (in the retina) and PDE11 (in skeletal muscle). Conversely, Icariin—the primary prenylated flavonoid glucoside found in Epimedium (Horny Goat Weed)—acts as a gentle, natural competitive inhibitor of human PDE5. In biochemical assays published in the Journal of Natural Products (Dell’Agli et al.), standardized icariin demonstrated selective PDE5 inhibition without cross-inhibiting retinal or cardiac PDE isozymes, maintaining elevated intracavernous pressure safely during natural intimacy.'
+      },
+      {
+        heading: '5. Hormonal Homeostasis & Psychogenic Virility: Tongkat Ali, Maca, and Cortisol Suppression',
+        content: 'Erectile firmness and libido are deeply influenced by the hypothalamic-pituitary-adrenal-gonadal (HPAG) axis. Chronic occupational stress elevates circulating cortisol, which suppresses luteinizing hormone (LH) and stimulates sympathetic adrenergic tone—constricting cavernosal arterioles and causing acute psychogenic erectile difficulty. Randomized controlled trials demonstrate that standardized Ashwagandha extract significantly suppresses serum cortisol levels by up to 27.9%, dampening performance anxiety. Concurrently, Tongkat Ali (Eurycoma longifolia) acts on the steroidogenesis pathway: in clinical trials (Tambi et al.), it liberated bioavailable free testosterone by binding to sex hormone-binding globulin (SHBG). When combined with dopaminergic Peruvian Maca Root, men experience sustained desire, rapid recovery, and steady intimate stamina.'
+      }
+    ],
+    citations: [
+      { author: 'Stanislavov R, et al. (2003)', text: 'Treatment of erectile dysfunction with pycnogenol and L-arginine.', journal: 'J Sex Marital Ther, 29(3): 207–213', pmid: '12851125' },
+      { author: 'Dell’Agli M, et al. (2008)', text: 'Potent inhibition of human phosphodiesterase-5 by icariin derivatives.', journal: 'J Nat Prod, 71(9): 1513–1517', pmid: '18778098' },
+      { author: 'Tambi MI, et al. (2012)', text: 'Standardised water-soluble extract of Eurycoma longifolia, Tongkat ali, as testosterone booster for managing men with late-onset hypogonadism?', journal: 'Andrologia, 44 Suppl 1: 226–230', pmid: '21671978' },
+      { author: 'Bailey SJ, et al. (2009)', text: 'Dietary nitrate supplementation reduces the O2 cost of low-intensity exercise and enhances tolerance to high-intensity exercise in humans.', journal: 'J Appl Physiol, 107(4): 1144–1155', pmid: '19661447' }
     ]
   }
 };

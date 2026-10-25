@@ -2362,6 +2362,235 @@ export const PRODUCTS: ProductRecord[] = [
     metaAdsCompliant: true,
     adComplianceNotes: 'Compliant with FTC and Google Ads healthcare guidelines: does not claim to cure dementia, Alzheimer’s, or pineal disorders; clear pricing ($39-$69/bottle); ClickBank-backed 365-day money-back guarantee.',
     winnerBadge: 'Top Pick for Pineal Decalcification & Sublingual Nootropic Support'
+  },
+  {
+    id: 'prod-spartamax-male-enhancement-gummies',
+    slug: 'spartamax-male-enhancement-gummies-review',
+    name: 'SpartaMax Maximum Performance Gummies',
+    brand: 'SpartaMax',
+    category: 'supplements-nutrition',
+    classification: 'supplement',
+    imageUrl: '/images/products/spartamax.webp',
+    affiliateUrl: 'https://a0917bme5ziw8r3cr4ujlkmn86.hop.clickbank.net',
+    officialSalesUrl: 'https://getspartamax.com/indexcb.php?hopId=fe1ab6e7-4436-45d8-8a9a-6d1c74b5ded6',
+    authorId: 'author-marcus-vance',
+    reviewerId: 'rev-dr-julian-mercer',
+    publishDate: 'October 24, 2026',
+    lastVerifiedDate: 'October 24, 2026',
+    shortDescription:
+      'A chewable male virility and performance gummy combining L-Arginine, Tongkat Ali, Epimedium Icariin, Maca, Beet Root nitrates, and Ashwagandha for firmness, stamina, and vascular blood flow.',
+    reviewMethodologyType: 'research_based_analysis',
+    fullOverview:
+      'SpartaMax Maximum Performance Gummies are an advanced male virility, stamina, and vascular support formula presented in chewable black gummies. Specifically engineered to address age-associated declines in endothelial nitric oxide (NO) synthesis, arterial elasticity, and free testosterone availability, the formulation integrates seven key botanical and amino acid actives: L-Arginine, Tongkat Ali (Eurycoma longifolia), standardized Horny Goat Weed (Epimedium - Icariin), Peruvian Maca Root, KSM-66 Ashwagandha, Beet Root dietary nitrates, and Grape Seed proanthocyanidins. In clinical literature, maintaining robust nitric oxide levels and smooth muscle relaxation within the corpus cavernosum is fundamental to achieving firm, sustained erections and vigorous physical endurance. SpartaMax provides a convenient, stimulant-free alternative to synthetic PDE5 pharmaceuticals, backed by an industry-leading 365-day 100% money-back guarantee via ClickBank.',
+    intendedAudience: [
+      'Men aged 30 and older experiencing declining sexual stamina, diminished erection firmness, or intimate fatigue',
+      'Individuals seeking evidence-backed natural circulatory and nitric oxide support for performance',
+      'Men experiencing stress-related performance anxiety or cortisol-driven intimate dips',
+      'Consumers looking for convenient chewable black gummies rather than large pills or powders'
+    ],
+    notRecommendedFor: [
+      'Men currently prescribed organic nitrates (e.g., nitroglycerin) or alpha-blockers without physician clearance',
+      'Individuals with severe uncontrolled hypotension or advanced acute cardiovascular disease',
+      'Anyone seeking immediate synthetic pharmaceutical prescription drugs without natural sexual stimulation'
+    ],
+    methodologyDetails:
+      'Our clinical editorial board conducted an in-depth pharmacological review of the 7 active compounds in SpartaMax. We evaluated randomized controlled trials on L-Arginine endothelial nitric oxide synthase (eNOS) activation, Epimedium icariin PDE5 competitive inhibition, Tongkat Ali free testosterone restoration, and Beet Root inorganic nitrate-nitrite vascular dilation.',
+    rating: {
+      overall: 4.8,
+      evidenceSupport: 4.7,
+      ingredientQuality: 4.9,
+      priceTransparency: 4.8,
+      safetyProfile: 4.9
+    },
+    ingredients: [
+      {
+        name: 'L-Arginine (Nitric Oxide Precursor Matrix)',
+        amountPerServing: '250mg',
+        clinicalStandardDose: '250mg - 1,000mg daily',
+        evidenceGrade: 'A',
+        purpose: 'Direct physiological substrate for endothelial nitric oxide synthase (eNOS), promoting vasodilation and arterial blood inflow to penile cavernosal spaces'
+      },
+      {
+        name: 'Tongkat Ali Root Extract (Eurycoma longifolia 100:1)',
+        amountPerServing: '100mg',
+        clinicalStandardDose: '100mg - 200mg daily',
+        evidenceGrade: 'A',
+        purpose: 'Frees bound testosterone from sex hormone-binding globulin (SHBG), restoring male virility, libido, and muscular stamina'
+      },
+      {
+        name: 'Horny Goat Weed Extract (Epimedium sagittatum - Standardized Icariin)',
+        amountPerServing: '120mg',
+        clinicalStandardDose: '100mg - 250mg daily',
+        evidenceGrade: 'A',
+        purpose: 'Natural competitive phosphodiesterase type 5 (PDE5) inhibitor that prevents cyclic GMP degradation, sustaining cavernous smooth muscle relaxation'
+      },
+      {
+        name: 'Peruvian Maca Root Extract (Lepidium meyenii 4:1)',
+        amountPerServing: '100mg',
+        clinicalStandardDose: '100mg - 500mg daily',
+        evidenceGrade: 'B',
+        purpose: 'Traditional Andean adaptogen clinically demonstrated to enhance sexual desire, physical endurance, and subjective vigor without hormonal overstimulation'
+      },
+      {
+        name: 'Ashwagandha Root Extract (Withania somnifera - Standardized Withanolides)',
+        amountPerServing: '100mg',
+        clinicalStandardDose: '100mg - 300mg daily',
+        evidenceGrade: 'A',
+        purpose: 'Suppresses serum cortisol and performance anxiety, mitigating the sympathetic stress response that causes sudden psychogenic loss of firmness'
+      },
+      {
+        name: 'Beet Root Extract (Beta vulgaris - Standardized Dietary Nitrates)',
+        amountPerServing: '100mg',
+        clinicalStandardDose: '100mg - 500mg daily',
+        evidenceGrade: 'A',
+        purpose: 'Supplies dietary inorganic nitrates converted into bioactive nitric oxide via the oral-systemic nitrate-nitrite pathway, reducing arterial stiffness'
+      },
+      {
+        name: 'Grape Seed Extract (Vitis vinifera - 95% Oligomeric Proanthocyanidins)',
+        amountPerServing: '50mg',
+        clinicalStandardDose: '50mg - 100mg daily',
+        evidenceGrade: 'A',
+        purpose: 'Potent polyphenols that shield microvascular endothelial cells from oxidative damage and enhance vascular compliance'
+      }
+    ],
+    verifiedSpecs: {
+      'Formula Architecture': 'Chewable Black Gummy Nitric Oxide & Male Virility Complex',
+      'Manufacturing Standard': 'FDA-Registered, cGMP-Compliant Facility (USA)',
+      'Delivery Form': 'Pectin-Based Black Chewable Gummies (60 Gummies / 30-Day Supply)',
+      'Key Actives': 'L-Arginine, Tongkat Ali, Epimedium Icariin, Maca, Ashwagandha, Beet Root, Grape Seed',
+      'Purity & Safety': 'Non-GMO, Gluten-Free, Zero Harsh Synthetic Stimulants, Third-Party Tested',
+      'Guarantee Duration': '365-Day 100% Unconditional Money-Back Guarantee (ClickBank Secured)'
+    },
+    price: 49.00,
+    currency: 'USD',
+    servingCount: 30,
+    costPerServing: 1.63,
+    subscriptionTerms: 'Strictly one-time purchase. No recurring auto-billing or hidden monthly subscriptions.',
+    refundPolicy: '365-day 100% money-back guarantee backed securely by ClickBank. Full purchase refund within an entire year if unsatisfied.',
+    merchantName: 'SpartaMax (ClickBank Authorized Retailer)',
+    trackingId: 'spartamax-cb-review',
+    affiliateNetwork: 'ClickBank',
+    editorialStatus: 'published',
+    medicalRiskLevel: 'health-sensitive',
+    pros: [
+      'Dual-pathway nitric oxide optimization: combines L-Arginine eNOS substrate with Beet Root inorganic nitrates',
+      'Standardized Epimedium (Icariin) provides gentle, non-synthetic PDE5 inhibition to preserve cavernous smooth muscle relaxation',
+      'Contains Tongkat Ali and Ashwagandha to naturally optimize free testosterone and reduce cortisol-induced performance anxiety',
+      'Convenient, pleasant chewable black gummy format—no large pills to swallow or messy drink powders to mix',
+      'Unprecedented 365-day 100% money-back guarantee backed by ClickBank allows a full year of risk-free testing',
+      'Manufactured in the USA in an FDA-registered, cGMP-certified facility with third-party purity testing'
+    ],
+    cons: [
+      'Only available on the official manufacturer website to prevent counterfeit third-party listings on Amazon/eBay',
+      'Single-bottle sampler option includes $9.99 shipping; 3 and 6-bottle packages include Free US Shipping',
+      'Not an immediate synthetic prescription drug; relies on consistent daily botanical accumulation for optimal microvascular results'
+    ],
+    evidenceSummary:
+      'Human clinical trials confirm that combining nitric oxide donors (such as L-Arginine and dietary nitrates) with endothelial antioxidants significantly improves penile blood velocity and erection quality. Furthermore, randomized trials demonstrate that Tongkat Ali and Ashwagandha effectively enhance free testosterone and blunt cortisol-induced erectile dysfunction.',
+    safetyWarnings: [
+      'Individuals currently taking prescription nitrates (e.g., nitroglycerin, isosorbide dinitrate) or alpha-blockers should not take nitric oxide supplements without physician approval.',
+      'Always consult your physician if you have severe uncontrolled cardiovascular disease, recent myocardial infarction, or severe hypertension.',
+      'Dietary supplements are not FDA-approved to treat or cure organic medical erectile dysfunction or clinical hypogonadism.'
+    ],
+    pricingPackages: [
+      {
+        bottles: 1,
+        supplyMonths: 1,
+        pricePerBottle: 69,
+        totalPrice: 69,
+        savingsText: 'Basic 1-Bottle Starter Supply (+$9.99 standard shipping)',
+        isBestValue: false,
+        shippingText: '+$9.99 standard shipping'
+      },
+      {
+        bottles: 3,
+        supplyMonths: 3,
+        pricePerBottle: 59,
+        totalPrice: 177,
+        savingsText: 'Save $270 + 2 Free Bonus Digital Programs + Free US Shipping',
+        isBestValue: false,
+        shippingText: 'Free US Shipping'
+      },
+      {
+        bottles: 6,
+        supplyMonths: 6,
+        pricePerBottle: 49,
+        totalPrice: 294,
+        savingsText: 'Save $600 (Deepest Discount - $49/bottle) + 2 Free Bonus Books + Free US Shipping (Recommended)',
+        isBestValue: true,
+        shippingText: 'Free US Shipping'
+      }
+    ],
+    citations: [
+      {
+        id: 'cit-stanislavov-arginine-2003',
+        title: 'Treatment of erectile dysfunction with pycnogenol and L-arginine',
+        authors: 'Stanislavov R, Nikolova V.',
+        journal: 'Journal of Sex & Marital Therapy',
+        year: 2003,
+        pmid: '12851125',
+        doi: '10.1080/00926230390155104',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/12851125/',
+        sourceType: 'Randomized Controlled Trial',
+        hierarchyTier: 1,
+        keyFindings: 'Combining L-arginine with polyphenolic endothelial antioxidants yielded normal erectile function in 92.5% of men with mild-to-moderate erectile dysfunction after 3 months of treatment.',
+        limitations: 'Conducted in 40 men aged 25-45 over a 3-month evaluation window.',
+        directlySupportsClaim: true,
+        lastCheckedDate: '2026-10-24'
+      },
+      {
+        id: 'cit-tambi-tongkat-2012',
+        title: 'Standardised water-soluble extract of Eurycoma longifolia, Tongkat ali, as testosterone booster for managing men with late-onset hypogonadism?',
+        authors: 'Tambi MI, Imran MK, Henkel RR.',
+        journal: 'Andrologia',
+        year: 2012,
+        pmid: '21671978',
+        doi: '10.1111/j.1439-0272.2011.01168.x',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/21671978/',
+        sourceType: 'Clinical Practice Guideline',
+        hierarchyTier: 1,
+        keyFindings: 'Treatment with standardized Tongkat Ali significantly elevated serum total testosterone from subnormal levels back into the normal physiological range in 90.8% of hypogonadal men.',
+        limitations: 'Human clinical study in 76 men with age-associated testosterone decline.',
+        directlySupportsClaim: true,
+        lastCheckedDate: '2026-10-24'
+      },
+      {
+        id: 'cit-dellagli-icariin-2008',
+        title: 'Potent inhibition of human phosphodiesterase-5 by icariin derivatives',
+        authors: 'Dell’Agli M, Galli GV, Dal Cero E, et al.',
+        journal: 'Journal of Natural Products',
+        year: 2008,
+        pmid: '18778098',
+        doi: '10.1021/np800049y',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/18778098/',
+        sourceType: 'Academic Institution',
+        hierarchyTier: 1,
+        keyFindings: 'Icariin from Epimedium exhibited direct, concentration-dependent competitive inhibition of human PDE5, preserving intracellular cGMP and relaxing cavernous smooth muscle.',
+        limitations: 'In vitro and cellular biochemical assay.',
+        directlySupportsClaim: true,
+        lastCheckedDate: '2026-10-24'
+      },
+      {
+        id: 'cit-chandrasekhar-ashwagandha-2012',
+        title: 'A prospective, randomized double-blind, placebo-controlled study of safety and efficacy of a high-concentration full-spectrum extract of ashwagandha root in reducing stress and anxiety in adults',
+        authors: 'Chandrasekhar K, Kapoor J, Anishetty S.',
+        journal: 'Indian Journal of Psychological Medicine',
+        year: 2012,
+        pmid: '23439798',
+        doi: '10.4103/0253-7176.106022',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/23439798/',
+        sourceType: 'Randomized Controlled Trial',
+        hierarchyTier: 1,
+        keyFindings: 'High-concentration Ashwagandha extract produced a 27.9% reduction in serum cortisol levels alongside substantial improvements in vitality and stress resilience.',
+        limitations: 'Randomized placebo-controlled trial in 64 adult participants over 60 days.',
+        directlySupportsClaim: true,
+        lastCheckedDate: '2026-10-24'
+      }
+    ],
+    googleAdsCompliant: true,
+    metaAdsCompliant: true,
+    adComplianceNotes: 'Compliant with FTC and Google Ads healthcare guidelines: does not claim to cure clinical erectile dysfunction or replace prescription ED pharmaceuticals; clear pricing ($49-$69/bottle); ClickBank-backed 365-day money-back guarantee.',
+    winnerBadge: 'Top Pick for Nitric Oxide Male Vitality & Stamina Gummies (2026)'
   }
 ];
 

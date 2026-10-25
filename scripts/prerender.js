@@ -131,6 +131,15 @@ const ROUTES = [
     description: 'Independent clinical evaluation of The Pineal Guardian liquid drops. We audit Bacopa, Lion’s Mane, Tamarind fluoride excretion, $39 pricing, and 365-day ClickBank guarantee.',
     ogType: 'product'
   },
+  {
+    path: '/review/spartamax-male-enhancement-gummies-review',
+    type: 'review',
+    reviewKey: 'spartamax-male-enhancement-gummies-review',
+    title: 'SpartaMax Review: Male Performance Gummies & Stamina (2026)',
+    h1: 'SpartaMax Review: Male Enhancement Gummies for Firmness, Stamina & Blood Flow (2026)',
+    description: 'Clinical evaluation of SpartaMax chewable black gummies. We analyze L-Arginine, Tongkat Ali, Beet Root nitrates, Epimedium icariin, pricing, and 365-day refund guarantee.',
+    ogType: 'product'
+  },
 
   // 8–13. 6 Clinical Research Papers
   {
@@ -194,6 +203,15 @@ const ROUTES = [
     title: 'Pineal Calcification & Fluoride: Clinical Science Guide',
     h1: 'Pineal Gland Calcification, Fluoride Clearance & Circadian Cognitive Science',
     description: 'Clinical research on epithalamic calcification, fluoride excretion trials with tamarind, and sublingual nootropics (Lion’s Mane, Bacopa) for memory and sleep.',
+    ogType: 'article'
+  },
+  {
+    path: '/article/erectile-firmness-nitric-oxide-endothelial-male-vitality-science',
+    type: 'article',
+    articleKey: 'erectile-firmness-nitric-oxide-endothelial-male-vitality-science',
+    title: 'Male Firmness & Nitric Oxide: Clinical Science Guide',
+    h1: 'Restoring Male Firmness & Stamina: Endothelial Nitric Oxide & Cavernosal Perfusion',
+    description: 'Clinical research on eNOS uncoupling, cavernosal smooth muscle cGMP signaling, Beet Root dietary nitrates, and Icariin PDE5 inhibition for male vitality.',
     ogType: 'article'
   },
 
@@ -420,6 +438,7 @@ function renderFooter() {
               <li><a href="/review/nitric-boost-ultra-blood-flow-stamina-review" style="color: #44403c; text-decoration: underline;">Nitric Boost Ultra Review</a></li>
               <li><a href="/review/gluco6-blood-sugar-glut4-metabolism-review" style="color: #44403c; text-decoration: underline;">Gluco6 Review</a></li>
               <li><a href="/review/the-pineal-guardian-brain-memory-pineal-review" style="color: #44403c; text-decoration: underline;">The Pineal Guardian Review</a></li>
+              <li><a href="/review/spartamax-male-enhancement-gummies-review" style="color: #44403c; text-decoration: underline;">SpartaMax Review</a></li>
             </ul>
           </div>
           <div>

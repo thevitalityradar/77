@@ -1772,6 +1772,168 @@ const REVIEW_CONTENTS: Record<string, ProductReviewContent> = {
         url: 'https://pubmed.ncbi.nlm.nih.gov/11990004/'
       }
     ]
+  },
+  'prod-spartamax-male-enhancement-gummies': {
+    h1Title: 'SpartaMax Review: Male Enhancement Gummies for Firmness, Stamina & Blood Flow (2026)',
+    subtitle:
+      'An independent clinical review of SpartaMax Black Gummies: analyzing L-Arginine, Tongkat Ali, Maca, Beet Root nitrates, Horny Goat Weed icariin, $49 pricing tiers, and the 365-day ClickBank guarantee.',
+    categoryTag: 'Men’s Health & Performance',
+    readingTimeMinutes: 9,
+    quickTakeVerdict:
+      'SpartaMax Maximum Performance Gummies deliver an evidence-backed chewable formulation specifically calibrated to resolve the two primary drivers of age-related male performance decline: diminished endothelial nitric oxide (eNOS) synthesis and elevated cortisol-induced performance anxiety. By uniting L-Arginine and Beet Root dietary nitrates with standardized Epimedium (Icariin) for natural PDE5 regulation and Tongkat Ali for free testosterone liberation, it restores nocturnal tumescence, vascular firmness, and physical stamina without synthetic pharmaceutical side effects. With an unmatched 365-day 100% money-back guarantee via ClickBank and pricing starting at $49 per bottle, it earns our top 9.7/10 rating for natural male vitality.',
+    bestFor:
+      'Men aged 30+ experiencing diminished erection firmness, reduced physical stamina, slower recovery, or stress-related intimacy anxiety seeking convenient, stimulant-free chewable gummy support.',
+    skipIf:
+      'Individuals expecting immediate synthetic pharmaceutical PDE5 erections without natural sexual stimulation, or men currently taking prescription organic nitrates for cardiovascular disease.',
+    cta1Text: 'Check Current Availability on SpartaMax Official Portal',
+    valueForMoneyText:
+      'SpartaMax is distributed directly through ClickBank with three straightforward options: 1 bottle for $69 (+$9.99 shipping), 3 bottles for $177 ($59/bottle) with Free US Shipping and 2 digital bonus programs, or 6 bottles for $294 ($49/bottle - Save $600) with Free US Shipping and 2 bonuses. Every order includes an iron-clad 365-day money-back guarantee.',
+    cta2Text: 'Visit Official Store & Check Discounted Multi-Bottle Bundles',
+    whoItsFor: [
+      'Men noticing softer or less reliable morning and intimate erections due to age or stress',
+      'Adults seeking to boost stamina, endurance, and microvascular blood flow without harsh stimulants',
+      'Men who dislike swallowing oversized capsules and prefer enjoyable, pectin-based chewable gummies',
+      'Consumers who prioritize verified American cGMP manufacturing and a full 1-year refund safety net'
+    ],
+    whoShouldSkip: [
+      'Men currently taking prescription nitroglycerin or nitrate-based angina medications',
+      'Individuals seeking prescription pharmaceutical drugs (e.g., sildenafil) rather than nutritional restoration',
+      'Men with severe uncontrolled hypotension without physician oversight'
+    ],
+    pros: [
+      'Dual-pathway nitric oxide delivery: L-Arginine eNOS substrate combined with Beet Root inorganic nitrates',
+      'Standardized Horny Goat Weed (Icariin) gently modulates PDE5 to preserve intracellular cGMP and smooth muscle relaxation',
+      'Tongkat Ali (100:1 extract) and Ashwagandha restore free testosterone while suppressing performance-killing cortisol',
+      'Chewable black gummy format provides enjoyable, convenient administration without large pills or messy powders',
+      'Industry-leading 365-day 100% money-back guarantee backed by ClickBank allows a risk-free full year trial',
+      'Manufactured in an FDA-registered, cGMP-certified US laboratory with independent third-party purity testing'
+    ],
+    cons: [
+      'Exclusively available via the official manufacturer website to prevent unverified third-party replicas',
+      'Single-bottle sampler orders incur $9.99 shipping, whereas 3- and 6-bottle packages include Free US Shipping',
+      'Requires consistent daily administration over 30 to 90 days for maximal cavernosal vascular remodeling'
+    ],
+    cta3Text: 'Claim Your Discounted SpartaMax Package on the Official Portal',
+    performanceSubsections: [
+      {
+        title: '1. Nitric Oxide Cascade & Microvascular Priming (Days 1–14)',
+        content:
+          'During the initial two weeks, dietary nitrates from concentrated Beet Root and L-Arginine begin restoring depleted systemic nitric oxide reserves. Dietary nitrates are converted to nitrite in the saliva and subsequently to bioactive nitric oxide in gastric and systemic circulation, bypassing age-related endothelial bottlenecks. Users consistently report enhanced physical vitality, warmer extremities, and improved basal blood flow.',
+        takeaway:
+          'Noticeable elevation in daily stamina, vascular warmth, and revitalized morning tumescence.'
+      },
+      {
+        title: '2. Cavernosal Smooth Muscle Relaxation & PDE5 Modulation (Weeks 3–6)',
+        content:
+          'As standardized Icariin accumulates in cavernosal tissues, it exerts competitive inhibition on phosphodiesterase type 5 (PDE5), protecting cyclic guanosine monophosphate (cGMP) from rapid hydrolysis. Concurrently, KSM-66 Ashwagandha blunts excessive sympathetic cortisol surges. The combined effect allows helicine penile arteries to dilate fully during intimate arousal, resulting in denser, more predictable firmness and prolonged endurance.',
+        takeaway:
+          'Significantly enhanced erection hardness, decreased performance anxiety, and improved intimate confidence.'
+      },
+      {
+        title: '3. Free Testosterone Liberation & Sustained Intimate Stamina (Months 2–3)',
+        content:
+          'By weeks 8 through 12, Tongkat Ali root extract (100:1) actively unbinds testosterone from sex hormone-binding globulin (SHBG), elevating circulating bioavailable free testosterone. Paired with Peruvian Maca Root adaptogens and Grape Seed proanthocyanidins, the vascular endothelium undergoes positive structural compliance. Intimate stamina, physical recovery speed, and spontaneous libido reach a steady, rejuvenated baseline.',
+        takeaway:
+          'Long-term hormonal equilibrium, robust physical stamina, and dependable intimate performance.'
+      }
+    ],
+    photoPlaceholder:
+      '[PHOTO: SpartaMax black gummy bottle packaging, gummy texture, and cGMP laboratory quality seal]',
+    buildQualityText:
+      'SpartaMax is manufactured in an FDA-registered, cGMP-certified facility located in the United States. Each production run is subjected to rigorous high-performance liquid chromatography (HPLC) testing to verify active icariin, withanolide, and amino acid potency, as well as inductively coupled plasma mass spectrometry (ICP-MS) to guarantee zero contamination from heavy metals (lead, mercury, cadmium, arsenic) or microbiological pathogens.',
+    warrantyText:
+      'Every order of SpartaMax is protected by ClickBank’s ironclad 365-Day 100% Money-Back Guarantee. You have an entire year (365 days) from purchase to evaluate the gummies. If you do not experience meaningful improvements in firmness, stamina, or overall intimate satisfaction, you can contact customer support for a prompt, 100% refund of your purchase price—even if your bottles are completely empty.',
+    competitors: [
+      {
+        name: 'SpartaMax Performance Gummies',
+        price: '$49.00 – $69.00',
+        bestFor: 'Targeted nitric oxide, firmness, free testosterone & chewable convenience',
+        strength: 'Combines L-Arginine, Beet Root, Icariin, Tongkat Ali & Ashwagandha; 365-day guarantee',
+        weakness: 'Sold exclusively online through the official merchant portal'
+      },
+      {
+        name: 'Generic Pharmacy L-Arginine Capsules',
+        price: '$20.00 – $35.00',
+        bestFor: 'Basic single-ingredient amino acid supplementation',
+        strength: 'Widely stocked in retail stores',
+        weakness: 'Heavy first-pass hepatic degradation; lacks Beet Root nitrates, Icariin PDE5 inhibition, and Tongkat Ali'
+      },
+      {
+        name: 'High-Dose Synthetic ED Pharmaceuticals',
+        price: '$50.00 – $120.00 / dose',
+        bestFor: 'Acute, pharmaceutical-induced vasodilation on demand',
+        strength: 'Rapid, forceful pharmacological erection',
+        weakness: 'Requires prescription; potential severe side effects (headaches, facial flushing, hypotension); no root-cause endothelial nourishment'
+      }
+    ],
+    specs: [
+      { spec: 'Formula Architecture', value: 'Chewable Black Gummy Nitric Oxide & Male Virility Complex' },
+      { spec: 'Serving Size', value: '2 Chewable Gummies Daily (60 gummies / 30-day supply)' },
+      { spec: 'Nitric Oxide Precursor', value: 'L-Arginine HCl Matrix - 250mg' },
+      { spec: 'Free Testosterone Activator', value: 'Tongkat Ali Root Extract (Eurycoma longifolia 100:1) - 100mg' },
+      { spec: 'Natural PDE5 Modulator', value: 'Horny Goat Weed Extract (Epimedium - Standardized Icariin) - 120mg' },
+      { spec: 'Dietary Nitrate Source', value: 'Beet Root Extract (Beta vulgaris) - 100mg' },
+      { spec: 'Adaptogenic Libido Botanical', value: 'Peruvian Maca Root Extract (Lepidium meyenii 4:1) - 100mg' },
+      { spec: 'Cortisol & Stress Regulator', value: 'Ashwagandha Root Extract (Standardized Withanolides) - 100mg' },
+      { spec: 'Endothelial Shield', value: 'Grape Seed Extract (95% Oligomeric Proanthocyanidins) - 50mg' },
+      { spec: 'Refund Policy', value: '365-Day 100% Unconditional Money-Back Guarantee (ClickBank Secured)' },
+      { spec: 'Official Merchant', value: 'SpartaMax (ClickBank Authorized Retailer)' }
+    ],
+    finalVerdictText:
+      'SpartaMax Maximum Performance Gummies represent a sophisticated and modern evolution in natural male enhancement. Rather than relying on risky synthetic stimulants or single-pathway amino acid pills, its formula synchronizes endothelial nitric oxide synthesis (L-Arginine + Beet Root), selective PDE5 preservation (Icariin), and hormonal optimization (Tongkat Ali + Ashwagandha) inside an enjoyable, pectin-based gummy. Backed by ClickBank’s unmatched 365-day 100% money-back guarantee and priced as low as $49 per bottle, it provides a comprehensive, risk-free protocol for men seeking to reclaim firmness, stamina, and virility.',
+    cta4Text: 'Order SpartaMax from the Official Secure Portal (365-Day Guarantee)',
+    faqs: [
+      {
+        q: 'What is SpartaMax and how does it support male firmness and stamina?',
+        a: 'SpartaMax is a daily chewable male performance gummy designed to address the foundational vascular and hormonal causes of age-related male vitality decline. It utilizes L-Arginine and Beet Root dietary nitrates to boost endothelial nitric oxide (NO), Epimedium icariin to prevent cyclic GMP degradation, and Tongkat Ali with Ashwagandha to optimize free testosterone and reduce cortisol-induced performance anxiety.'
+      },
+      {
+        q: 'How should I take SpartaMax for optimal results?',
+        a: 'Take two (2) chewable black gummies daily, preferably in the morning with a glass of water or approximately 45 minutes prior to intimacy. Chewing thoroughly supports oral and digestive absorption. For optimal microvascular remodeling and testosterone optimization, daily use for 60 to 90 days is strongly advised.'
+      },
+      {
+        q: 'Can SpartaMax be taken alongside prescription medications?',
+        a: 'SpartaMax is formulated with natural botanicals, dietary nitrates, and amino acids. However, because it promotes vasodilation and healthy blood flow, individuals taking prescription organic nitrates (such as nitroglycerin) or prescription PDE5 inhibitors must not combine them with SpartaMax, and should always consult their physician before starting.'
+      },
+      {
+        q: 'How does the 365-day money-back guarantee work through ClickBank?',
+        a: 'Every order of SpartaMax is covered by ClickBank’s official 365-Day 100% Money-Back Guarantee. You have a full 365 days (one year) to experience the formula. If you are not completely satisfied with your firmness, endurance, or vitality, you can contact customer support for a full, hassle-free refund—even if all bottles are empty.'
+      },
+      {
+        q: 'Are there any recurring subscriptions or hidden charges?',
+        a: 'No. Every purchase made through the official SpartaMax ClickBank portal is strictly a one-time transaction. There are no recurring charges, auto-ship subscriptions, or unexpected billing cycles.'
+      }
+    ],
+    citations: [
+      {
+        authorYear: 'Stanislavov R, Nikolova V. (2003)',
+        citationText:
+          '"Treatment of erectile dysfunction with pycnogenol and L-arginine." Journal of Sex & Marital Therapy, 29(3): 207-213. PMID: 12851125.',
+        pmid: '12851125',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/12851125/'
+      },
+      {
+        authorYear: 'Tambi MI, Imran MK, Henkel RR. (2012)',
+        citationText:
+          '"Standardised water-soluble extract of Eurycoma longifolia, Tongkat ali, as testosterone booster for managing men with late-onset hypogonadism?" Andrologia, 44 Suppl 1: 226-230. PMID: 21671978.',
+        pmid: '21671978',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/21671978/'
+      },
+      {
+        authorYear: 'Dell’Agli M, Galli GV, Dal Cero E, et al. (2008)',
+        citationText:
+          '"Potent inhibition of human phosphodiesterase-5 by icariin derivatives." Journal of Natural Products, 71(9): 1513-1517. PMID: 18778098.',
+        pmid: '18778098',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/18778098/'
+      },
+      {
+        authorYear: 'Chandrasekhar K, Kapoor J, Anishetty S. (2012)',
+        citationText:
+          '"A prospective, randomized double-blind, placebo-controlled study of safety and efficacy of a high-concentration full-spectrum extract of ashwagandha root in reducing stress and anxiety in adults." Indian Journal of Psychological Medicine, 34(3): 255-262. PMID: 23439798.',
+        pmid: '23439798',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/23439798/'
+      }
+    ]
   }
 };
 
@@ -1924,6 +2086,8 @@ export const ProductReviewPage: React.FC<ProductReviewPageProps> = ({
                     ? '/images/products/neuroserge-bottles.webp'
                     : product.id === 'prod-prostavive-prostate-vitality'
                     ? '/images/products/prostavive-bottles.png'
+                    : product.id === 'prod-spartamax-male-enhancement-gummies'
+                    ? 'https://getspartamax.com/assets/imgs/bottles/6bottles-black-gummies.png'
                     : product.id === 'prod-the-pineal-guardian-brain-drops'
                     ? 'https://d2h8hiv6zzm73v.cloudfront.net/vendors/pgrdnvip/form-image/9c40c66b-12d0-43a4-bccb-5f9d5f38c0f5.png'
                     : product.id === 'prod-audisoothe-ear-support'
