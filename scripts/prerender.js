@@ -140,8 +140,17 @@ const ROUTES = [
     description: 'Clinical evaluation of SpartaMax chewable black gummies. We analyze L-Arginine, Tongkat Ali, Beet Root nitrates, Epimedium icariin, pricing, and 365-day refund guarantee.',
     ogType: 'product'
   },
+  {
+    path: '/review/finessa-digestion-gut-liver-cleanse-review',
+    type: 'review',
+    reviewKey: 'finessa-digestion-gut-liver-cleanse-review',
+    title: 'Finessa Review: Digestion, Gut-Liver Axis & Bloating (2026)',
+    h1: 'Finessa Review: Clinical Gut-Liver Axis, Bile Flow & Bloating Relief Evidence (2026)',
+    description: 'Clinical evaluation of Finessa morning digestive drink powder. We analyze Dandelion, Silymarin, Artichoke, Cascara, 5B CFU probiotics, and 180-day refund guarantee.',
+    ogType: 'product'
+  },
 
-  // 8–13. 6 Clinical Research Papers
+  // Clinical Research Papers
   {
     path: '/article/brain-glucose-metabolism-saffron-berberine-cognitive-health',
     type: 'article',
@@ -214,8 +223,17 @@ const ROUTES = [
     description: 'Clinical research on eNOS uncoupling, cavernosal smooth muscle cGMP signaling, Beet Root dietary nitrates, and Icariin PDE5 inhibition for male vitality.',
     ogType: 'article'
   },
+  {
+    path: '/article/gut-liver-axis-bile-flow-bloating-motility-science',
+    type: 'article',
+    articleKey: 'gut-liver-axis-bile-flow-bloating-motility-science',
+    title: 'The Gut-Liver Axis & Bile Flow: Clinical Digestion Guide',
+    h1: 'The Gut-Liver Axis: Bile Synthesis, Intestinal Motility & Bloating Relief Science',
+    description: 'Clinical research on hepatic bile acid synthesis, migrating motor complex (MMC) motility, and multi-strain probiotics for bloating and gut transit time.',
+    ogType: 'article'
+  },
 
-  // 14–17. 4 Category Hubs
+  // Category Hubs
   {
     path: '/category/health-wellness',
     type: 'category',
@@ -439,6 +457,7 @@ function renderFooter() {
               <li><a href="/review/gluco6-blood-sugar-glut4-metabolism-review" style="color: #44403c; text-decoration: underline;">Gluco6 Review</a></li>
               <li><a href="/review/the-pineal-guardian-brain-memory-pineal-review" style="color: #44403c; text-decoration: underline;">The Pineal Guardian Review</a></li>
               <li><a href="/review/spartamax-male-enhancement-gummies-review" style="color: #44403c; text-decoration: underline;">SpartaMax Review</a></li>
+              <li><a href="/review/finessa-digestion-gut-liver-cleanse-review" style="color: #44403c; text-decoration: underline;">Finessa Review</a></li>
             </ul>
           </div>
           <div>

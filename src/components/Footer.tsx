@@ -130,6 +130,18 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   SpartaMax Gummies (2026)
                 </a>
               </li>
+              <li>
+                <a
+                  href="/review/finessa-digestion-gut-liver-cleanse-review"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onNavigate('/review/finessa-digestion-gut-liver-cleanse-review');
+                  }}
+                  className="hover:text-white transition-colors text-stone-300 block"
+                >
+                  Finessa Elixir (2026)
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -233,6 +245,18 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   className="hover:text-white transition-colors text-stone-300 block"
                 >
                   Male Firmness &amp; Nitric Oxide
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/article/gut-liver-axis-bile-flow-bloating-motility-science"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onNavigate('/article/gut-liver-axis-bile-flow-bloating-motility-science');
+                  }}
+                  className="hover:text-white transition-colors text-stone-300 block"
+                >
+                  Gut-Liver Axis &amp; Bile Flow
                 </a>
               </li>
             </ul>

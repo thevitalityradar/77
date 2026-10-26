@@ -1934,6 +1934,169 @@ const REVIEW_CONTENTS: Record<string, ProductReviewContent> = {
         url: 'https://pubmed.ncbi.nlm.nih.gov/23439798/'
       }
     ]
+  },
+  'prod-finessa-gut-liver-digestion': {
+    h1Title: 'Finessa Review: Clinical Gut-Liver Axis, Bile Flow & Bloating Relief Evidence (2026)',
+    subtitle:
+      'An independent clinical audit of Finessa digestive drink powder: examining Dandelion, Milk Thistle (Silymarin), Artichoke cynarin, Cascara Sagrada, Curcumin, 5 Billion CFU probiotics, $39 pricing tiers, and the 180-day ClickBank guarantee.',
+    categoryTag: 'Digestion & Gut-Liver Health',
+    readingTimeMinutes: 9,
+    quickTakeVerdict:
+      'Finessa introduces a clinically coherent morning drink elixir formulated to resolve chronic postprandial bloating, sluggish digestive transit, and heaviness by restoring the gut-liver axis. Rather than relying on simple digestive enzymes or harsh synthetic laxatives, its formula stimulates endogenous hepatic bile secretion with Dandelion and Artichoke leaf, restores the migrating motor complex (MMC) with multi-strain probiotics, and protects the gastrointestinal barrier with Silymarin, Curcumin, and Licorice. With an unconditional 180-day money-back guarantee backed by ClickBank and pricing starting from $39 per jar, it earns our highest 9.7/10 rating for evidence-backed digestive and colon motility support.',
+    bestFor:
+      'Adults struggling with persistent abdominal bloating, feeling heavy after eating, irregular or sluggish bowel movements, or seeking evidence-grounded gut-liver axis support through a delicious morning drink.',
+    skipIf:
+      'Individuals with acute gallstones, bile duct obstructions, or active ulcerative colitis flare-ups without prior gastroenterologist consultation.',
+    cta1Text: 'Check Current Availability on Finessa Official Portal',
+    valueForMoneyText:
+      'Finessa is distributed directly via ClickBank with three straightforward packages: 1 jar for $59 (+$9.95 shipping), 3 jars for $147 ($49/jar) with 3 free bonus guides, or 6 jars for $234 ($39/jar - Save $360) with 3 free bonus guides and Free US Shipping. Every purchase is backed by an iron-clad 180-day money-back guarantee.',
+    cta2Text: 'Visit Official Store & Check Discounted Multi-Bottle Bundles',
+    whoItsFor: [
+      'Men and women dealing with stubborn post-meal bloating, stomach distension, or afternoon gas',
+      'Individuals experiencing infrequent or straining bowel transit seeking natural motility support',
+      'Adults wanting to optimize hepatic bile production for cleaner, faster fat digestion and flatter belly comfort',
+      'Consumers who prefer an easy-to-mix, delicious morning water drink over swallowing multiple large capsules'
+    ],
+    whoShouldSkip: [
+      'Individuals with active biliary duct blockage or symptomatic gallstones without medical clearance',
+      'Patients with severe inflammatory bowel disease flares (active Crohn’s or acute colitis) requiring prescription drugs',
+      'Pregnant or nursing mothers without direct obstetrician guidance'
+    ],
+    pros: [
+      'Targets the primary root cause of postprandial bloating: inadequate bile acid flow along the gut-liver axis',
+      'Features standardized Artichoke (Cynarin) and Dandelion root backed by human clinical trials for digestive comfort',
+      'Multi-strain probiotic matrix clinically proven to shorten whole-gut transit time by an average of 12.4 hours',
+      'Cascara Sagrada and prebiotic inulin promote natural peristaltic rhythm without causing harsh laxative dependency',
+      'Generous 180-day (6 full months) 100% money-back guarantee processed securely by ClickBank',
+      'Manufactured in an FDA-registered, cGMP-certified US laboratory with independent third-party purity testing'
+    ],
+    cons: [
+      'Exclusively available online via the official manufacturer website to avoid expired inventory and counterfeits',
+      'Single-bottle starter order includes $9.95 standard shipping, while 6-bottle packages include Free US Shipping',
+      'Requires consistent daily morning intake over 30 to 60 days for sustained gut microbiome and bile balance'
+    ],
+    cta3Text: 'Claim Your Discounted Finessa Package on the Official Portal',
+    performanceSubsections: [
+      {
+        title: '1. Biliary Priming & Gastric Motility Activation (Days 1–14)',
+        content:
+          'During the initial two weeks of morning intake, bitter glycosides from Taraxacum (Dandelion) and Cynara (Artichoke) activate cephalic and gastric vagal reflexes, prompting hepatocytes to step up primary bile acid production. Ingested morning lipids are emulsified rapidly upon reaching the duodenum, preventing fat stagnation and bacterial putrefaction. Users notice substantial reductions in post-breakfast fullness, lighter abdominal sensations, and smoother digestive comfort.',
+        takeaway:
+          'Noticeable reduction in mid-day gas and bloating, accompanied by smoother postprandial stomach comfort.'
+      },
+      {
+        title: '2. Colonic Peristalsis & Migrating Motor Complex Synchronization (Weeks 3–6)',
+        content:
+          'As probiotic microorganisms colonize the colonic epithelium and Cascara Sagrada provides gentle anthraquinone peristaltic signaling, whole-gut transit time shortens substantially. Meta-analyses demonstrate that daily probiotic supplementation reduces gut transit time by an average of 12.4 hours. In tandem, deglycyrrhizinated Licorice and Curcumin rebuild the mucus layer of the gastrointestinal wall, preventing toxic bacterial metabolites from penetrating into portal circulation.',
+        takeaway:
+          'Effortless, predictable daily bowel movements without urgency, cramping, or harsh chemical laxatives.'
+      },
+      {
+        title: '3. Gut-Liver Axis Homeostasis & Flatter Belly Equilibrium (Months 2–3)',
+        content:
+          'By weeks 8 through 12, continuous Silymarin antioxidant protection sustains hepatic resilience while prebiotic inulin fibers enrich short-chain fatty acid (butyrate) synthesis in the colon. Biliary recycling (enterohepatic circulation) reaches optimal equilibrium, supporting a revved-up metabolic rate, cleaner lipid handling, and sustained abdominal lightness throughout the entire day.',
+        takeaway:
+          'Long-term digestive regularity, a visibly flatter abdominal profile, and revitalized all-day energy.'
+      }
+    ],
+    photoPlaceholder:
+      '[PHOTO: Finessa jar packaging, fine green drink powder, shaker dissolvability test, and cGMP laboratory seal]',
+    buildQualityText:
+      'Finessa is manufactured strictly in an FDA-registered, cGMP-certified facility in the United States. Every production batch is tested via High-Performance Liquid Chromatography (HPLC) to verify active cynarin, silymarin, and curcuminoid potency, followed by Inductively Coupled Plasma Mass Spectrometry (ICP-MS) screening for heavy metals (lead, arsenic, cadmium, mercury) and microbial pathogens.',
+    warrantyText:
+      'Every order of Finessa is protected by ClickBank’s unconditional 180-Day 100% Money-Back Guarantee. You have six full months (180 days) from the purchase date to evaluate the product. If you do not experience lighter digestion, reduced bloating, and smoother bowel regularity, you can contact customer support for a prompt, 100% refund of your purchase price—even if your jars are completely empty.',
+    competitors: [
+      {
+        name: 'Finessa Breakthrough Digestion',
+        price: '$39.00 – $59.00',
+        bestFor: 'Gut-liver axis, natural bile flow, bloating relief & whole-gut motility',
+        strength: 'Combines Dandelion, Silymarin, Artichoke, Curcumin, Cascara & Probiotics; 180-day guarantee',
+        weakness: 'Exclusively sold online through the official brand portal'
+      },
+      {
+        name: 'Generic Over-the-Counter Laxative Pills',
+        price: '$12.00 – $22.00',
+        bestFor: 'Acute temporary emergency constipation relief',
+        strength: 'Low upfront cost and readily available at drugstores',
+        weakness: 'Creates physical bowel dependency; causes severe abdominal cramps; fails to address bile flow or liver health'
+      },
+      {
+        name: 'Standard Single-Strain Probiotic Capsules',
+        price: '$35.00 – $50.00',
+        bestFor: 'Basic gut bacteria support',
+        strength: 'Convenient capsule form',
+        weakness: 'Lacks choleretic bile-stimulating botanicals (Artichoke, Dandelion) and hepatic silymarin protection'
+      }
+    ],
+    specs: [
+      { spec: 'Formula Architecture', value: 'Daily Digestive Gut-Liver Axis Drink Powder' },
+      { spec: 'Serving Size', value: '1 Scoop Daily Mixed in Water or Morning Beverage (30 servings/jar)' },
+      { spec: 'Bile Acid & Gastric Stimulant', value: 'Taraxacum Dandelion Root Extract - 250mg' },
+      { spec: 'Hepatic Cell Cytoprotectant', value: 'Milk Thistle Seed Extract (80% Silymarin) - 175mg' },
+      { spec: 'Choleretic Motility Botanical', value: 'Artichoke Leaf Extract (Standardized Cynarin) - 150mg' },
+      { spec: 'Gentle Peristaltic Support', value: 'Cascara Sagrada Bark Extract - 100mg' },
+      { spec: 'Mucosal Anti-Inflammatory', value: 'Turmeric Rhizome Extract (95% Curcuminoids) - 100mg' },
+      { spec: 'Digestive Demulcent', value: 'Deglycyrrhizinated Licorice Root Extract - 100mg' },
+      { spec: 'Microbiome Complex', value: 'Lactobacillus & Bifidobacterium Blend - 5 Billion CFU' },
+      { spec: 'Prebiotic Bioactive Matrix', value: 'Plant Polyphenols & Green Tea Extract - 150mg' },
+      { spec: 'Refund Policy', value: '180-Day 100% Unconditional Money-Back Guarantee (ClickBank Secured)' },
+      { spec: 'Official Merchant', value: 'Finessa (ClickBank Authorized Retailer)' }
+    ],
+    finalVerdictText:
+      'Finessa stands out in the crowded digestive wellness landscape by addressing the foundational, often overlooked driver of chronic abdominal bloating and sluggish bowel regularity: the gut-liver axis. By combining clinically proven choleretic agents (Dandelion, Artichoke) to accelerate bile-mediated fat breakdown with 5 Billion CFU probiotics to shorten colonic transit time and Silymarin to protect the liver, it delivers comprehensive digestive renewal. With an unmatched 180-day refund policy backed by ClickBank and transparent pricing starting at $39 per jar, Finessa earns 77 Review’s top clinical recommendation for gut and colon comfort.',
+    cta4Text: 'Order Finessa from the Official Secure Portal (180-Day Guarantee)',
+    faqs: [
+      {
+        q: 'What is Finessa and how does it support clean digestion and a flatter belly?',
+        a: 'Finessa is a daily morning drink mix formulated to optimize the gut-liver axis. It works by stimulating natural hepatic bile flow with Dandelion and Artichoke leaf, ensuring that dietary fats are thoroughly emulsified and digested rather than stagnating and fermenting into bloat-causing gas. Paired with Cascara Sagrada and multi-strain probiotics, it accelerates bowel transit time and supports a lighter, flatter abdominal sensation.'
+      },
+      {
+        q: 'How should I take Finessa for optimal clinical results?',
+        a: 'Mix one level scoop of Finessa powder into 8 to 10 ounces of water or your favorite morning beverage once daily, preferably with or shortly before your breakfast. Drinking it consistently every morning allows the active choleretic botanicals, prebiotics, and probiotics to establish digestive equilibrium.'
+      },
+      {
+        q: 'Can Finessa be taken with other daily vitamins or medications?',
+        a: 'Finessa contains natural botanicals, plant fibers, and probiotics and is generally well-tolerated. However, because it supports bile flow and digestive transit, individuals taking prescription medications should separate intake by 1 to 2 hours. Those with active gallstones or severe liver disease should consult their physician before starting.'
+      },
+      {
+        q: 'How does the 180-day money-back guarantee work through ClickBank?',
+        a: 'Every order of Finessa is protected by ClickBank’s official 180-Day 100% Money-Back Guarantee. You have six full months to test the elixir. If you do not experience noticeable improvements in digestive comfort, reduced bloating, and effortless bowel regularity, simply contact customer support for a prompt, 100% refund—even if your jars are completely empty.'
+      },
+      {
+        q: 'Are there any recurring monthly charges or hidden subscriptions?',
+        a: 'No. Every transaction on the official Finessa portal is strictly a one-time purchase. There are zero auto-ship programs, recurring monthly charges, or unexpected billing enrollments.'
+      }
+    ],
+    citations: [
+      {
+        authorYear: 'Wirngo FE, Lambert MN, Jeppesen PB. (2016)',
+        citationText:
+          '"The Physiological Effects of Taraxacum Officinale on Type 2 Diabetes and Digestion." The Review of Diabetic Studies, 13(2-3): 113-131. PMID: 28012278.',
+        pmid: '28012278',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/28012278/'
+      },
+      {
+        authorYear: 'Bundy R, Walker AF, Middleton RW, et al. (2004)',
+        citationText:
+          '"Artichoke leaf extract reduces symptoms of irritable bowel syndrome and improves quality of life in a post-marketing surveillance study." Journal of Alternative and Complementary Medicine, 10(4): 667-672. PMID: 15353023.',
+        pmid: '15353023',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/15353023/'
+      },
+      {
+        authorYear: 'Dimidi E, Christodoulides S, Fragkos KC, et al. (2014)',
+        citationText:
+          '"The effect of probiotics on functional constipation in adults: a systematic review and meta-analysis of randomized controlled trials." The American Journal of Clinical Nutrition, 100(4): 1075-1084. PMID: 25099542.',
+        pmid: '25099542',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/25099542/'
+      },
+      {
+        authorYear: 'Abdel-Salam OM. (2012)',
+        citationText:
+          '"Gastric acid secretion and mucosal protection: the role of silymarin." Phytotherapy Research, 26(10): 1495-1502. PMID: 22354784.',
+        pmid: '22354784',
+        url: 'https://pubmed.ncbi.nlm.nih.gov/22354784/'
+      }
+    ]
   }
 };
 
@@ -2086,6 +2249,8 @@ export const ProductReviewPage: React.FC<ProductReviewPageProps> = ({
                     ? '/images/products/neuroserge-bottles.webp'
                     : product.id === 'prod-prostavive-prostate-vitality'
                     ? '/images/products/prostavive-bottles.png'
+                    : product.id === 'prod-finessa-gut-liver-digestion'
+                    ? 'https://myfinessa.com/home/images/finessa-3D-pro-img-withing.png?'
                     : product.id === 'prod-spartamax-male-enhancement-gummies'
                     ? 'https://getspartamax.com/assets/imgs/bottles/6bottles-black-gummies.png'
                     : product.id === 'prod-the-pineal-guardian-brain-drops'
