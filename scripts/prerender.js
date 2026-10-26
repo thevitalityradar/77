@@ -149,6 +149,15 @@ const ROUTES = [
     description: 'Clinical evaluation of Finessa morning digestive drink powder. We analyze Dandelion, Silymarin, Artichoke, Cascara, 5B CFU probiotics, and 180-day refund guarantee.',
     ogType: 'product'
   },
+  {
+    path: '/review/java-burn-coffee-metabolism-weight-loss-review',
+    type: 'review',
+    reviewKey: 'java-burn-coffee-metabolism-weight-loss-review',
+    title: 'Java Burn Review: Coffee Metabolism & Fat Loss (2026)',
+    h1: 'Java Burn Review: Morning Coffee Ritual for Metabolism & Fat Oxidation (2026)',
+    description: 'Clinical evaluation of Java Burn morning coffee ritual drops. We analyze Green Tea EGCG, Chlorogenic Acid, L-Carnitine, L-Theanine, pricing, and 60-day refund guarantee.',
+    ogType: 'product'
+  },
 
   // Clinical Research Papers
   {
@@ -230,6 +239,15 @@ const ROUTES = [
     title: 'The Gut-Liver Axis & Bile Flow: Clinical Digestion Guide',
     h1: 'The Gut-Liver Axis: Bile Synthesis, Intestinal Motility & Bloating Relief Science',
     description: 'Clinical research on hepatic bile acid synthesis, migrating motor complex (MMC) motility, and multi-strain probiotics for bloating and gut transit time.',
+    ogType: 'article'
+  },
+  {
+    path: '/article/coffee-metabolic-synergy-chlorogenic-acid-fat-oxidation',
+    type: 'article',
+    articleKey: 'coffee-metabolic-synergy-chlorogenic-acid-fat-oxidation',
+    title: 'Coffee Metabolic Synergy & Fat Oxidation: Clinical Guide',
+    h1: 'Coffee Metabolic Synergy: How Chlorogenic Acid, EGCG & Caffeine Upregulate Fat Oxidation',
+    description: 'Clinical research on caffeine-polyphenol thermogenesis, chlorogenic acid glucose blunting, L-carnitine mitochondrial shuttling, and L-theanine alpha waves.',
     ogType: 'article'
   },
 
@@ -458,6 +476,7 @@ function renderFooter() {
               <li><a href="/review/the-pineal-guardian-brain-memory-pineal-review" style="color: #44403c; text-decoration: underline;">The Pineal Guardian Review</a></li>
               <li><a href="/review/spartamax-male-enhancement-gummies-review" style="color: #44403c; text-decoration: underline;">SpartaMax Review</a></li>
               <li><a href="/review/finessa-digestion-gut-liver-cleanse-review" style="color: #44403c; text-decoration: underline;">Finessa Review</a></li>
+              <li><a href="/review/java-burn-coffee-metabolism-weight-loss-review" style="color: #44403c; text-decoration: underline;">Java Burn Review</a></li>
             </ul>
           </div>
           <div>

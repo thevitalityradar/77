@@ -142,6 +142,18 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   Finessa Elixir (2026)
                 </a>
               </li>
+              <li>
+                <a
+                  href="/review/java-burn-coffee-metabolism-weight-loss-review"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onNavigate('/review/java-burn-coffee-metabolism-weight-loss-review');
+                  }}
+                  className="hover:text-white transition-colors text-stone-300 block"
+                >
+                  Java Burn Ritual (2026)
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -257,6 +269,18 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   className="hover:text-white transition-colors text-stone-300 block"
                 >
                   Gut-Liver Axis &amp; Bile Flow
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/article/coffee-metabolic-synergy-chlorogenic-acid-fat-oxidation"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onNavigate('/article/coffee-metabolic-synergy-chlorogenic-acid-fat-oxidation');
+                  }}
+                  className="hover:text-white transition-colors text-stone-300 block"
+                >
+                  Coffee Metabolic Synergy
                 </a>
               </li>
             </ul>
